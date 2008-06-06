@@ -27,7 +27,7 @@ class MacLibre3(NSObject):
             if self.maclibre.chooseWebXml():
                 parserWeb = Parser(self.maclibre.xmlMaclibrePath)
                 parserUser = Parser(self.maclibre.xmlUserPath)
-                self.packList.dataSource().load_(parserWeb.parse())
+                self.packList.dataSource().load_(parserWeb.parse(), parserUser.parse())
                 self.tabs.selectNextTabViewItem_(1)
         else:
             if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 1:
@@ -40,7 +40,7 @@ class MacLibre3(NSObject):
                 #self.nextButton.setEnabled_(self.auth.updateStatus_(self))
             self.tabs.selectNextTabViewItem_(1)
             if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 3:
-                self.installation.setSelected(self.packList.dataSource().dist)
+                self.installation.setSelected(self.packList.dataSource().dist, self.packList.dataSource().inst)
                 self.installer=Installer(self.installation)
                 self.installation.setup(self.installation, self.maclibre, self.installer)
                 self.installer.install()
