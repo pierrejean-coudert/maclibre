@@ -8,8 +8,8 @@
 		<string key="IBDocument.HIToolboxVersion">352.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="388"/>
 			<integer value="29"/>
+			<integer value="381"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -777,7 +777,7 @@
 								<object class="NSTabViewItem" id="710082385">
 									<string key="NSIdentifier">1</string>
 									<object class="NSView" key="NSView" id="571194004">
-										<nil key="NSNextResponder"/>
+										<reference key="NSNextResponder" ref="660106884"/>
 										<int key="NSvFlags">256</int>
 										<object class="NSMutableArray" key="NSSubviews">
 											<bool key="EncodedWithXMLCoder">YES</bool>
@@ -815,6 +815,7 @@
 											</object>
 										</object>
 										<string key="NSFrame">{{10, 33}, {662, 345}}</string>
+										<reference key="NSSuperview" ref="660106884"/>
 									</object>
 									<string key="NSLabel">Intro</string>
 									<object class="NSColor" key="NSColor" id="163634395">
@@ -1292,7 +1293,7 @@
 								<object class="NSTabViewItem" id="169324172">
 									<string key="NSIdentifier">Item 3</string>
 									<object class="NSView" key="NSView" id="149230030">
-										<reference key="NSNextResponder" ref="660106884"/>
+										<nil key="NSNextResponder"/>
 										<int key="NSvFlags">256</int>
 										<object class="NSMutableArray" key="NSSubviews">
 											<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1409,7 +1410,6 @@
 											</object>
 										</object>
 										<string key="NSFrame">{{10, 33}, {662, 345}}</string>
-										<reference key="NSSuperview" ref="660106884"/>
 									</object>
 									<string key="NSLabel">Installation</string>
 									<reference key="NSColor" ref="163634395"/>
@@ -1427,14 +1427,14 @@
 									<reference key="NSTabView" ref="660106884"/>
 								</object>
 							</object>
-							<reference key="NSSelectedTabViewItem" ref="169324172"/>
+							<reference key="NSSelectedTabViewItem" ref="710082385"/>
 							<reference key="NSFont" ref="624509983"/>
 							<int key="NSTvFlags">0</int>
 							<bool key="NSAllowTruncatedLabels">YES</bool>
 							<bool key="NSDrawsBackground">YES</bool>
 							<object class="NSMutableArray" key="NSSubviews">
 								<bool key="EncodedWithXMLCoder">YES</bool>
-								<reference ref="149230030"/>
+								<reference ref="571194004"/>
 							</object>
 						</object>
 						<object class="NSButton" id="654728945">
@@ -3422,9 +3422,9 @@
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{158, 557}, {740, 487}}</string>
+					<string>{{85, 557}, {740, 487}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{158, 557}, {740, 487}}</string>
+					<string>{{85, 557}, {740, 487}}</string>
 					<reference ref="9"/>
 					<string>{{238, 285}, {480, 360}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3634,38 +3634,12 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptionsV3.1+">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="858229167">
-						<string key="majorKey">IBDocumentRelativeSource</string>
-						<string key="minorKey">../../../../Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/SecurityInterface.framework/Versions/A/Headers/SFAuthorizationView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBDocumentRelativeSource</string>
-						<string key="minorKey">../../../../Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/SecurityInterface.framework/Versions/A/Headers/SFCertificatePanel.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBDocumentRelativeSource</string>
-						<string key="minorKey">../../../../Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/SecurityInterface.framework/Versions/A/Headers/SFChooseIdentityPanel.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
 					<string key="className">PackageList</string>
 					<string key="superclassName">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBDocumentRelativeSource</string>
 						<string key="minorKey">../PackageList.py</string>
 					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">SFAuthorizationView</string>
-					<string key="superclassName">NSView</string>
-					<reference key="sourceIdentifier" ref="858229167"/>
 				</object>
 			</object>
 		</object>

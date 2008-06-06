@@ -17,10 +17,11 @@ class PackageListItem(NSObject):
 class PackageList (NSObject):
 
 
-    def load_(self, distribution):
+    def load_(self, distribution, installed):
         #self._classInfo = getClassList()
         #self.refreshClasses()
         self.dist=distribution
+        self.inst=installed
         return self
 
 
