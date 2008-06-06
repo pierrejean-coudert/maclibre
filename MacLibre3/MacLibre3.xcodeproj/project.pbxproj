@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6381BAA80DF74265005A13F0 /* InstallationGUI.py in Resources */ = {isa = PBXBuildFile; fileRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */; };
+		63AD59DA0DF5E07800039DCE /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD59D90DF5E07800039DCE /* SecurityInterface.framework */; };
+		63AD5A2E0DF5E56D00039DCE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD5A2D0DF5E56D00039DCE /* Security.framework */; };
+		63DD43890DEBBB520074CC48 /* AbiWord.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43400DEBBB510074CC48 /* AbiWord.png */; };
+		63DD438A0DEBBB520074CC48 /* Adium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43410DEBBB510074CC48 /* Adium.png */; };
+		63DD438B0DEBBB520074CC48 /* Audacity.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43420DEBBB510074CC48 /* Audacity.png */; };
+		63DD438C0DEBBB520074CC48 /* Blender.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43430DEBBB510074CC48 /* Blender.png */; };
+		63DD438D0DEBBB520074CC48 /* ClamXav.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43440DEBBB510074CC48 /* ClamXav.png */; };
+		63DD438E0DEBBB520074CC48 /* Colloquy.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43450DEBBB510074CC48 /* Colloquy.png */; };
+		63DD438F0DEBBB520074CC48 /* Cyberduck.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43460DEBBB510074CC48 /* Cyberduck.png */; };
+		63DD43900DEBBB520074CC48 /* DesktopManager.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43470DEBBB510074CC48 /* DesktopManager.png */; };
+		63DD43910DEBBB520074CC48 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43480DEBBB510074CC48 /* Fire.png */; };
+		63DD43920DEBBB520074CC48 /* Firefox.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43490DEBBB510074CC48 /* Firefox.png */; };
+		63DD43930DEBBB520074CC48 /* Gimp.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD434A0DEBBB510074CC48 /* Gimp.png */; };
+		63DD43940DEBBB520074CC48 /* HandBrake.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD434B0DEBBB510074CC48 /* HandBrake.png */; };
+		63DD43950DEBBB520074CC48 /* Inkscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD434C0DEBBB510074CC48 /* Inkscape.png */; };
+		63DD43960DEBBB520074CC48 /* iTerm.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD434D0DEBBB510074CC48 /* iTerm.png */; };
+		63DD43970DEBBB520074CC48 /* Mplayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD434E0DEBBB510074CC48 /* Mplayer.png */; };
+		63DD43980DEBBB520074CC48 /* NeoOffice.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD434F0DEBBB510074CC48 /* NeoOffice.png */; };
+		63DD43990DEBBB520074CC48 /* Nvu.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43500DEBBB510074CC48 /* Nvu.png */; };
+		63DD439A0DEBBB520074CC48 /* Thunderbird.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43510DEBBB510074CC48 /* Thunderbird.png */; };
+		63DD439B0DEBBB520074CC48 /* Vienna.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43520DEBBB510074CC48 /* Vienna.png */; };
+		63DD439C0DEBBB520074CC48 /* VirtueDesktops.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43530DEBBB510074CC48 /* VirtueDesktops.png */; };
+		63DD439D0DEBBB520074CC48 /* VLC.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43540DEBBB510074CC48 /* VLC.png */; };
+		63DD439E0DEBBB520074CC48 /* X11.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43550DEBBB510074CC48 /* X11.png */; };
+		63DD439F0DEBBB520074CC48 /* failure-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43570DEBBB510074CC48 /* failure-small.png */; };
+		63DD43A00DEBBB520074CC48 /* failure.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43580DEBBB510074CC48 /* failure.png */; };
+		63DD43A10DEBBB520074CC48 /* ImageBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43590DEBBB510074CC48 /* ImageBackground.png */; };
+		63DD43A20DEBBB520074CC48 /* ImageBackground.svg in Resources */ = {isa = PBXBuildFile; fileRef = 63DD435A0DEBBB510074CC48 /* ImageBackground.svg */; };
+		63DD43A30DEBBB520074CC48 /* ImageBackground.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 63DD435B0DEBBB510074CC48 /* ImageBackground.xcf */; };
+		63DD43A40DEBBB520074CC48 /* maclibre.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63DD435C0DEBBB510074CC48 /* maclibre.icns */; };
+		63DD43A50DEBBB520074CC48 /* maclibre.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD435D0DEBBB510074CC48 /* maclibre.png */; };
+		63DD43A60DEBBB520074CC48 /* MacLibreBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD435E0DEBBB510074CC48 /* MacLibreBackground.png */; };
+		63DD43A70DEBBB520074CC48 /* MacLibreDiskImage.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63DD435F0DEBBB510074CC48 /* MacLibreDiskImage.icns */; };
+		63DD43A80DEBBB520074CC48 /* MacLibreDiskImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43600DEBBB510074CC48 /* MacLibreDiskImage.png */; };
+		63DD43A90DEBBB520074CC48 /* MacLibreLogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43610DEBBB510074CC48 /* MacLibreLogo.svg */; };
+		63DD43AA0DEBBB520074CC48 /* MacLibreWizardFirstPageBackground.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43620DEBBB510074CC48 /* MacLibreWizardFirstPageBackground.xcf */; };
+		63DD43AB0DEBBB520074CC48 /* success-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43630DEBBB510074CC48 /* success-small.png */; };
+		63DD43AC0DEBBB520074CC48 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43640DEBBB510074CC48 /* success.png */; };
+		63DD43AD0DEBBB520074CC48 /* failure-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43660DEBBB510074CC48 /* failure-small.png */; };
+		63DD43AE0DEBBB520074CC48 /* MacLibreBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43670DEBBB510074CC48 /* MacLibreBackground.png */; };
+		63DD43AF0DEBBB520074CC48 /* success-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43680DEBBB510074CC48 /* success-small.png */; };
+		63DD43B00DEBBB520074CC48 /* MacLibreOfflineTemplate.dmg.bz2 in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43690DEBBB510074CC48 /* MacLibreOfflineTemplate.dmg.bz2 */; };
+		63DD43B10DEBBB520074CC48 /* MacLibreTemplate.dmg.bz2 in Resources */ = {isa = PBXBuildFile; fileRef = 63DD436A0DEBBB510074CC48 /* MacLibreTemplate.dmg.bz2 */; };
+		63DD43B20DEBBB520074CC48 /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63DD436B0DEBBB520074CC48 /* LICENCE.txt */; };
+		63DD43B30DEBBB520074CC48 /* Info_10.3_.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63DD436D0DEBBB520074CC48 /* Info_10.3_.plist */; };
+		63DD43B40DEBBB520074CC48 /* Info_10.4_.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63DD436E0DEBBB520074CC48 /* Info_10.4_.plist */; };
+		63DD43B50DEBBB520074CC48 /* AppManager.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43700DEBBB520074CC48 /* AppManager.py */; };
+		63DD43B60DEBBB520074CC48 /* Config.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43710DEBBB520074CC48 /* Config.py */; };
+		63DD43B70DEBBB520074CC48 /* DistribGenerator.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43720DEBBB520074CC48 /* DistribGenerator.py */; };
+		63DD43B80DEBBB520074CC48 /* Distribution.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43730DEBBB520074CC48 /* Distribution.py */; };
+		63DD43B90DEBBB520074CC48 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 63DD43750DEBBB520074CC48 /* Makefile */; };
+		63DD43BA0DEBBB520074CC48 /* offline.mk in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43760DEBBB520074CC48 /* offline.mk */; };
+		63DD43BB0DEBBB520074CC48 /* online.mk in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43770DEBBB520074CC48 /* online.mk */; };
+		63DD43BC0DEBBB520074CC48 /* DmgContainer.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43780DEBBB520074CC48 /* DmgContainer.py */; };
+		63DD43BD0DEBBB520074CC48 /* Downloader.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43790DEBBB520074CC48 /* Downloader.py */; };
+		63DD43BE0DEBBB520074CC48 /* GUI_MaclibreWizard.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */; };
+		63DD43BF0DEBBB520074CC48 /* GUI_PackageChooser.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD437B0DEBBB520074CC48 /* GUI_PackageChooser.py */; };
+		63DD43C00DEBBB520074CC48 /* Installer.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD437C0DEBBB520074CC48 /* Installer.py */; };
+		63DD43C10DEBBB520074CC48 /* MacLibre.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD437D0DEBBB520074CC48 /* MacLibre.py */; };
+		63DD43C20DEBBB520074CC48 /* MD5.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD437E0DEBBB520074CC48 /* MD5.py */; };
+		63DD43C30DEBBB520074CC48 /* Parser.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD437F0DEBBB520074CC48 /* Parser.py */; };
+		63DD43C40DEBBB520074CC48 /* PgmRetriever.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43800DEBBB520074CC48 /* PgmRetriever.py */; };
+		63DD43C50DEBBB520074CC48 /* PkgManager.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43810DEBBB520074CC48 /* PkgManager.py */; };
+		63DD43C60DEBBB520074CC48 /* setup.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43820DEBBB520074CC48 /* setup.py */; };
+		63DD43C70DEBBB520074CC48 /* tools.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43830DEBBB520074CC48 /* tools.py */; };
+		63DD43C80DEBBB520074CC48 /* User.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43840DEBBB520074CC48 /* User.py */; };
+		63DD43C90DEBBB520074CC48 /* ZipContainer.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43850DEBBB520074CC48 /* ZipContainer.py */; };
+		63DD43CA0DEBBB520074CC48 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43870DEBBB520074CC48 /* config.xml */; };
+		63DD43CB0DEBBB520074CC48 /* en.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43880DEBBB520074CC48 /* en.xml */; };
+		63DD456E0DEC69780074CC48 /* MacLibre3.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */; };
+		63DD46B20DEDE18C0074CC48 /* PackageList.py in Resources */ = {isa = PBXBuildFile; fileRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */; };
+		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
+		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
+		7790198F0C07548A00326F66 /* MacLibre3AppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */; };
+		77C8C1F90C07829500965286 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C8C1F70C07829500965286 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* MacLibre3_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacLibre3_Prefix.pch; sourceTree = "<group>"; };
+		6381BAA70DF74265005A13F0 /* InstallationGUI.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = InstallationGUI.py; sourceTree = "<group>"; };
+		63AD59D90DF5E07800039DCE /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = /System/Library/Frameworks/SecurityInterface.framework; sourceTree = "<absolute>"; };
+		63AD5A2D0DF5E56D00039DCE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		63DD43400DEBBB510074CC48 /* AbiWord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AbiWord.png; sourceTree = "<group>"; };
+		63DD43410DEBBB510074CC48 /* Adium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adium.png; sourceTree = "<group>"; };
+		63DD43420DEBBB510074CC48 /* Audacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Audacity.png; sourceTree = "<group>"; };
+		63DD43430DEBBB510074CC48 /* Blender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blender.png; sourceTree = "<group>"; };
+		63DD43440DEBBB510074CC48 /* ClamXav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClamXav.png; sourceTree = "<group>"; };
+		63DD43450DEBBB510074CC48 /* Colloquy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Colloquy.png; sourceTree = "<group>"; };
+		63DD43460DEBBB510074CC48 /* Cyberduck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cyberduck.png; sourceTree = "<group>"; };
+		63DD43470DEBBB510074CC48 /* DesktopManager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DesktopManager.png; sourceTree = "<group>"; };
+		63DD43480DEBBB510074CC48 /* Fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fire.png; sourceTree = "<group>"; };
+		63DD43490DEBBB510074CC48 /* Firefox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Firefox.png; sourceTree = "<group>"; };
+		63DD434A0DEBBB510074CC48 /* Gimp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gimp.png; sourceTree = "<group>"; };
+		63DD434B0DEBBB510074CC48 /* HandBrake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HandBrake.png; sourceTree = "<group>"; };
+		63DD434C0DEBBB510074CC48 /* Inkscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inkscape.png; sourceTree = "<group>"; };
+		63DD434D0DEBBB510074CC48 /* iTerm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTerm.png; sourceTree = "<group>"; };
+		63DD434E0DEBBB510074CC48 /* Mplayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mplayer.png; sourceTree = "<group>"; };
+		63DD434F0DEBBB510074CC48 /* NeoOffice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeoOffice.png; sourceTree = "<group>"; };
+		63DD43500DEBBB510074CC48 /* Nvu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nvu.png; sourceTree = "<group>"; };
+		63DD43510DEBBB510074CC48 /* Thunderbird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thunderbird.png; sourceTree = "<group>"; };
+		63DD43520DEBBB510074CC48 /* Vienna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vienna.png; sourceTree = "<group>"; };
+		63DD43530DEBBB510074CC48 /* VirtueDesktops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VirtueDesktops.png; sourceTree = "<group>"; };
+		63DD43540DEBBB510074CC48 /* VLC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VLC.png; sourceTree = "<group>"; };
+		63DD43550DEBBB510074CC48 /* X11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X11.png; sourceTree = "<group>"; };
+		63DD43570DEBBB510074CC48 /* failure-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "failure-small.png"; sourceTree = "<group>"; };
+		63DD43580DEBBB510074CC48 /* failure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failure.png; sourceTree = "<group>"; };
+		63DD43590DEBBB510074CC48 /* ImageBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageBackground.png; sourceTree = "<group>"; };
+		63DD435A0DEBBB510074CC48 /* ImageBackground.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ImageBackground.svg; sourceTree = "<group>"; };
+		63DD435B0DEBBB510074CC48 /* ImageBackground.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImageBackground.xcf; sourceTree = "<group>"; };
+		63DD435C0DEBBB510074CC48 /* maclibre.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = maclibre.icns; sourceTree = "<group>"; };
+		63DD435D0DEBBB510074CC48 /* maclibre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maclibre.png; sourceTree = "<group>"; };
+		63DD435E0DEBBB510074CC48 /* MacLibreBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacLibreBackground.png; sourceTree = "<group>"; };
+		63DD435F0DEBBB510074CC48 /* MacLibreDiskImage.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MacLibreDiskImage.icns; sourceTree = "<group>"; };
+		63DD43600DEBBB510074CC48 /* MacLibreDiskImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacLibreDiskImage.png; sourceTree = "<group>"; };
+		63DD43610DEBBB510074CC48 /* MacLibreLogo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MacLibreLogo.svg; sourceTree = "<group>"; };
+		63DD43620DEBBB510074CC48 /* MacLibreWizardFirstPageBackground.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MacLibreWizardFirstPageBackground.xcf; sourceTree = "<group>"; };
+		63DD43630DEBBB510074CC48 /* success-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success-small.png"; sourceTree = "<group>"; };
+		63DD43640DEBBB510074CC48 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		63DD43660DEBBB510074CC48 /* failure-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "failure-small.png"; sourceTree = "<group>"; };
+		63DD43670DEBBB510074CC48 /* MacLibreBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacLibreBackground.png; sourceTree = "<group>"; };
+		63DD43680DEBBB510074CC48 /* success-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success-small.png"; sourceTree = "<group>"; };
+		63DD43690DEBBB510074CC48 /* MacLibreOfflineTemplate.dmg.bz2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MacLibreOfflineTemplate.dmg.bz2; sourceTree = "<group>"; };
+		63DD436A0DEBBB510074CC48 /* MacLibreTemplate.dmg.bz2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MacLibreTemplate.dmg.bz2; sourceTree = "<group>"; };
+		63DD436B0DEBBB520074CC48 /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENCE.txt; path = MacLibre2/LICENCE.txt; sourceTree = "<group>"; };
+		63DD436D0DEBBB520074CC48 /* Info_10.3_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_10.3_.plist; sourceTree = "<group>"; };
+		63DD436E0DEBBB520074CC48 /* Info_10.4_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_10.4_.plist; sourceTree = "<group>"; };
+		63DD43700DEBBB520074CC48 /* AppManager.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AppManager.py; sourceTree = "<group>"; };
+		63DD43710DEBBB520074CC48 /* Config.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Config.py; sourceTree = "<group>"; };
+		63DD43720DEBBB520074CC48 /* DistribGenerator.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = DistribGenerator.py; sourceTree = "<group>"; };
+		63DD43730DEBBB520074CC48 /* Distribution.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Distribution.py; sourceTree = "<group>"; };
+		63DD43750DEBBB520074CC48 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		63DD43760DEBBB520074CC48 /* offline.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = offline.mk; sourceTree = "<group>"; };
+		63DD43770DEBBB520074CC48 /* online.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = online.mk; sourceTree = "<group>"; };
+		63DD43780DEBBB520074CC48 /* DmgContainer.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = DmgContainer.py; sourceTree = "<group>"; };
+		63DD43790DEBBB520074CC48 /* Downloader.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Downloader.py; sourceTree = "<group>"; };
+		63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = GUI_MaclibreWizard.py; sourceTree = "<group>"; };
+		63DD437B0DEBBB520074CC48 /* GUI_PackageChooser.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = GUI_PackageChooser.py; sourceTree = "<group>"; };
+		63DD437C0DEBBB520074CC48 /* Installer.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Installer.py; sourceTree = "<group>"; };
+		63DD437D0DEBBB520074CC48 /* MacLibre.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MacLibre.py; sourceTree = "<group>"; };
+		63DD437E0DEBBB520074CC48 /* MD5.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MD5.py; sourceTree = "<group>"; };
+		63DD437F0DEBBB520074CC48 /* Parser.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Parser.py; sourceTree = "<group>"; };
+		63DD43800DEBBB520074CC48 /* PgmRetriever.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PgmRetriever.py; sourceTree = "<group>"; };
+		63DD43810DEBBB520074CC48 /* PkgManager.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PkgManager.py; sourceTree = "<group>"; };
+		63DD43820DEBBB520074CC48 /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		63DD43830DEBBB520074CC48 /* tools.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = tools.py; sourceTree = "<group>"; };
+		63DD43840DEBBB520074CC48 /* User.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = User.py; sourceTree = "<group>"; };
+		63DD43850DEBBB520074CC48 /* ZipContainer.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ZipContainer.py; sourceTree = "<group>"; };
+		63DD43870DEBBB520074CC48 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		63DD43880DEBBB520074CC48 /* en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = en.xml; sourceTree = "<group>"; };
+		63DD456D0DEC69780074CC48 /* MacLibre3.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MacLibre3.py; sourceTree = "<group>"; };
+		63DD46B10DEDE18C0074CC48 /* PackageList.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PackageList.py; sourceTree = "<group>"; };
+		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MacLibre3AppDelegate.py; sourceTree = "<group>"; };
+		77C8C1F80C07829500965286 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MacLibre3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLibre3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				77631A270C06C501005415CB /* Python.framework in Frameworks */,
+				63AD59DA0DF5E07800039DCE /* SecurityInterface.framework in Frameworks */,
+				63AD5A2E0DF5E56D00039DCE /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6381BAA70DF74265005A13F0 /* InstallationGUI.py */,
+				63DD46B10DEDE18C0074CC48 /* PackageList.py */,
+				63DD456D0DEC69780074CC48 /* MacLibre3.py */,
+				7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63AD5A2D0DF5E56D00039DCE /* Security.framework */,
+				63AD59D90DF5E07800039DCE /* SecurityInterface.framework */,
+				77631A260C06C501005415CB /* Python.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MacLibre3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MacLibre3 */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MacLibre3;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MacLibre3_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				77631A3E0C0748CF005415CB /* main.py */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63DD44010DEBC2230074CC48 /* MacLibre2 */,
+				77C8C1F70C07829500965286 /* MainMenu.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63DD433E0DEBBB510074CC48 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				63DD433F0DEBBB510074CC48 /* AppsLogos */,
+				63DD43560DEBBB510074CC48 /* Graphics */,
+				63DD43650DEBBB510074CC48 /* Images */,
+				63DD43690DEBBB510074CC48 /* MacLibreOfflineTemplate.dmg.bz2 */,
+				63DD436A0DEBBB510074CC48 /* MacLibreTemplate.dmg.bz2 */,
+			);
+			name = bin;
+			path = MacLibre2/bin;
+			sourceTree = "<group>";
+		};
+		63DD433F0DEBBB510074CC48 /* AppsLogos */ = {
+			isa = PBXGroup;
+			children = (
+				63DD43400DEBBB510074CC48 /* AbiWord.png */,
+				63DD43410DEBBB510074CC48 /* Adium.png */,
+				63DD43420DEBBB510074CC48 /* Audacity.png */,
+				63DD43430DEBBB510074CC48 /* Blender.png */,
+				63DD43440DEBBB510074CC48 /* ClamXav.png */,
+				63DD43450DEBBB510074CC48 /* Colloquy.png */,
+				63DD43460DEBBB510074CC48 /* Cyberduck.png */,
+				63DD43470DEBBB510074CC48 /* DesktopManager.png */,
+				63DD43480DEBBB510074CC48 /* Fire.png */,
+				63DD43490DEBBB510074CC48 /* Firefox.png */,
+				63DD434A0DEBBB510074CC48 /* Gimp.png */,
+				63DD434B0DEBBB510074CC48 /* HandBrake.png */,
+				63DD434C0DEBBB510074CC48 /* Inkscape.png */,
+				63DD434D0DEBBB510074CC48 /* iTerm.png */,
+				63DD434E0DEBBB510074CC48 /* Mplayer.png */,
+				63DD434F0DEBBB510074CC48 /* NeoOffice.png */,
+				63DD43500DEBBB510074CC48 /* Nvu.png */,
+				63DD43510DEBBB510074CC48 /* Thunderbird.png */,
+				63DD43520DEBBB510074CC48 /* Vienna.png */,
+				63DD43530DEBBB510074CC48 /* VirtueDesktops.png */,
+				63DD43540DEBBB510074CC48 /* VLC.png */,
+				63DD43550DEBBB510074CC48 /* X11.png */,
+			);
+			path = AppsLogos;
+			sourceTree = "<group>";
+		};
+		63DD43560DEBBB510074CC48 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				63DD43570DEBBB510074CC48 /* failure-small.png */,
+				63DD43580DEBBB510074CC48 /* failure.png */,
+				63DD43590DEBBB510074CC48 /* ImageBackground.png */,
+				63DD435A0DEBBB510074CC48 /* ImageBackground.svg */,
+				63DD435B0DEBBB510074CC48 /* ImageBackground.xcf */,
+				63DD435C0DEBBB510074CC48 /* maclibre.icns */,
+				63DD435D0DEBBB510074CC48 /* maclibre.png */,
+				63DD435E0DEBBB510074CC48 /* MacLibreBackground.png */,
+				63DD435F0DEBBB510074CC48 /* MacLibreDiskImage.icns */,
+				63DD43600DEBBB510074CC48 /* MacLibreDiskImage.png */,
+				63DD43610DEBBB510074CC48 /* MacLibreLogo.svg */,
+				63DD43620DEBBB510074CC48 /* MacLibreWizardFirstPageBackground.xcf */,
+				63DD43630DEBBB510074CC48 /* success-small.png */,
+				63DD43640DEBBB510074CC48 /* success.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		63DD43650DEBBB510074CC48 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				63DD43660DEBBB510074CC48 /* failure-small.png */,
+				63DD43670DEBBB510074CC48 /* MacLibreBackground.png */,
+				63DD43680DEBBB510074CC48 /* success-small.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		63DD436C0DEBBB520074CC48 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				63DD436D0DEBBB520074CC48 /* Info_10.3_.plist */,
+				63DD436E0DEBBB520074CC48 /* Info_10.4_.plist */,
+			);
+			name = plists;
+			path = MacLibre2/plists;
+			sourceTree = "<group>";
+		};
+		63DD436F0DEBBB520074CC48 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				63DD43700DEBBB520074CC48 /* AppManager.py */,
+				63DD43710DEBBB520074CC48 /* Config.py */,
+				63DD43720DEBBB520074CC48 /* DistribGenerator.py */,
+				63DD43730DEBBB520074CC48 /* Distribution.py */,
+				63DD43740DEBBB520074CC48 /* DmgBuilder */,
+				63DD43780DEBBB520074CC48 /* DmgContainer.py */,
+				63DD43790DEBBB520074CC48 /* Downloader.py */,
+				63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */,
+				63DD437B0DEBBB520074CC48 /* GUI_PackageChooser.py */,
+				63DD437C0DEBBB520074CC48 /* Installer.py */,
+				63DD437D0DEBBB520074CC48 /* MacLibre.py */,
+				63DD437E0DEBBB520074CC48 /* MD5.py */,
+				63DD437F0DEBBB520074CC48 /* Parser.py */,
+				63DD43800DEBBB520074CC48 /* PgmRetriever.py */,
+				63DD43810DEBBB520074CC48 /* PkgManager.py */,
+				63DD43820DEBBB520074CC48 /* setup.py */,
+				63DD43830DEBBB520074CC48 /* tools.py */,
+				63DD43840DEBBB520074CC48 /* User.py */,
+				63DD43850DEBBB520074CC48 /* ZipContainer.py */,
+			);
+			name = src;
+			path = MacLibre2/src;
+			sourceTree = "<group>";
+		};
+		63DD43740DEBBB520074CC48 /* DmgBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				63DD43750DEBBB520074CC48 /* Makefile */,
+				63DD43760DEBBB520074CC48 /* offline.mk */,
+				63DD43770DEBBB520074CC48 /* online.mk */,
+			);
+			path = DmgBuilder;
+			sourceTree = "<group>";
+		};
+		63DD43860DEBBB520074CC48 /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				63DD43870DEBBB520074CC48 /* config.xml */,
+				63DD43880DEBBB520074CC48 /* en.xml */,
+			);
+			name = xml;
+			path = MacLibre2/xml;
+			sourceTree = "<group>";
+		};
+		63DD44010DEBC2230074CC48 /* MacLibre2 */ = {
+			isa = PBXGroup;
+			children = (
+				63DD433E0DEBBB510074CC48 /* bin */,
+				63DD436B0DEBBB520074CC48 /* LICENCE.txt */,
+				63DD436C0DEBBB520074CC48 /* plists */,
+				63DD436F0DEBBB520074CC48 /* src */,
+				63DD43860DEBBB520074CC48 /* xml */,
+			);
+			name = MacLibre2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MacLibre3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacLibre3" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacLibre3;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MacLibre3;
+			productReference = 8D1107320486CEB800E47090 /* MacLibre3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacLibre3" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MacLibre3 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MacLibre3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				77631A3F0C0748CF005415CB /* main.py in Resources */,
+				7790198F0C07548A00326F66 /* MacLibre3AppDelegate.py in Resources */,
+				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
+				63DD43890DEBBB520074CC48 /* AbiWord.png in Resources */,
+				63DD438A0DEBBB520074CC48 /* Adium.png in Resources */,
+				63DD438B0DEBBB520074CC48 /* Audacity.png in Resources */,
+				63DD438C0DEBBB520074CC48 /* Blender.png in Resources */,
+				63DD438D0DEBBB520074CC48 /* ClamXav.png in Resources */,
+				63DD438E0DEBBB520074CC48 /* Colloquy.png in Resources */,
+				63DD438F0DEBBB520074CC48 /* Cyberduck.png in Resources */,
+				63DD43900DEBBB520074CC48 /* DesktopManager.png in Resources */,
+				63DD43910DEBBB520074CC48 /* Fire.png in Resources */,
+				63DD43920DEBBB520074CC48 /* Firefox.png in Resources */,
+				63DD43930DEBBB520074CC48 /* Gimp.png in Resources */,
+				63DD43940DEBBB520074CC48 /* HandBrake.png in Resources */,
+				63DD43950DEBBB520074CC48 /* Inkscape.png in Resources */,
+				63DD43960DEBBB520074CC48 /* iTerm.png in Resources */,
+				63DD43970DEBBB520074CC48 /* Mplayer.png in Resources */,
+				63DD43980DEBBB520074CC48 /* NeoOffice.png in Resources */,
+				63DD43990DEBBB520074CC48 /* Nvu.png in Resources */,
+				63DD439A0DEBBB520074CC48 /* Thunderbird.png in Resources */,
+				63DD439B0DEBBB520074CC48 /* Vienna.png in Resources */,
+				63DD439C0DEBBB520074CC48 /* VirtueDesktops.png in Resources */,
+				63DD439D0DEBBB520074CC48 /* VLC.png in Resources */,
+				63DD439E0DEBBB520074CC48 /* X11.png in Resources */,
+				63DD439F0DEBBB520074CC48 /* failure-small.png in Resources */,
+				63DD43A00DEBBB520074CC48 /* failure.png in Resources */,
+				63DD43A10DEBBB520074CC48 /* ImageBackground.png in Resources */,
+				63DD43A20DEBBB520074CC48 /* ImageBackground.svg in Resources */,
+				63DD43A30DEBBB520074CC48 /* ImageBackground.xcf in Resources */,
+				63DD43A40DEBBB520074CC48 /* maclibre.icns in Resources */,
+				63DD43A50DEBBB520074CC48 /* maclibre.png in Resources */,
+				63DD43A60DEBBB520074CC48 /* MacLibreBackground.png in Resources */,
+				63DD43A70DEBBB520074CC48 /* MacLibreDiskImage.icns in Resources */,
+				63DD43A80DEBBB520074CC48 /* MacLibreDiskImage.png in Resources */,
+				63DD43A90DEBBB520074CC48 /* MacLibreLogo.svg in Resources */,
+				63DD43AA0DEBBB520074CC48 /* MacLibreWizardFirstPageBackground.xcf in Resources */,
+				63DD43AB0DEBBB520074CC48 /* success-small.png in Resources */,
+				63DD43AC0DEBBB520074CC48 /* success.png in Resources */,
+				63DD43AD0DEBBB520074CC48 /* failure-small.png in Resources */,
+				63DD43AE0DEBBB520074CC48 /* MacLibreBackground.png in Resources */,
+				63DD43AF0DEBBB520074CC48 /* success-small.png in Resources */,
+				63DD43B00DEBBB520074CC48 /* MacLibreOfflineTemplate.dmg.bz2 in Resources */,
+				63DD43B10DEBBB520074CC48 /* MacLibreTemplate.dmg.bz2 in Resources */,
+				63DD43B20DEBBB520074CC48 /* LICENCE.txt in Resources */,
+				63DD43B30DEBBB520074CC48 /* Info_10.3_.plist in Resources */,
+				63DD43B40DEBBB520074CC48 /* Info_10.4_.plist in Resources */,
+				63DD43B50DEBBB520074CC48 /* AppManager.py in Resources */,
+				63DD43B60DEBBB520074CC48 /* Config.py in Resources */,
+				63DD43B70DEBBB520074CC48 /* DistribGenerator.py in Resources */,
+				63DD43B80DEBBB520074CC48 /* Distribution.py in Resources */,
+				63DD43BA0DEBBB520074CC48 /* offline.mk in Resources */,
+				63DD43BB0DEBBB520074CC48 /* online.mk in Resources */,
+				63DD43BC0DEBBB520074CC48 /* DmgContainer.py in Resources */,
+				63DD43BD0DEBBB520074CC48 /* Downloader.py in Resources */,
+				63DD43BE0DEBBB520074CC48 /* GUI_MaclibreWizard.py in Resources */,
+				63DD43BF0DEBBB520074CC48 /* GUI_PackageChooser.py in Resources */,
+				63DD43C00DEBBB520074CC48 /* Installer.py in Resources */,
+				63DD43C10DEBBB520074CC48 /* MacLibre.py in Resources */,
+				63DD43C20DEBBB520074CC48 /* MD5.py in Resources */,
+				63DD43C30DEBBB520074CC48 /* Parser.py in Resources */,
+				63DD43C40DEBBB520074CC48 /* PgmRetriever.py in Resources */,
+				63DD43C50DEBBB520074CC48 /* PkgManager.py in Resources */,
+				63DD43C60DEBBB520074CC48 /* setup.py in Resources */,
+				63DD43C70DEBBB520074CC48 /* tools.py in Resources */,
+				63DD43C80DEBBB520074CC48 /* User.py in Resources */,
+				63DD43C90DEBBB520074CC48 /* ZipContainer.py in Resources */,
+				63DD43CA0DEBBB520074CC48 /* config.xml in Resources */,
+				63DD43CB0DEBBB520074CC48 /* en.xml in Resources */,
+				63DD456E0DEC69780074CC48 /* MacLibre3.py in Resources */,
+				63DD46B20DEDE18C0074CC48 /* PackageList.py in Resources */,
+				6381BAA80DF74265005A13F0 /* InstallationGUI.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				63DD43B90DEBBB520074CC48 /* Makefile in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77C8C1F70C07829500965286 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C8C1F80C07829500965286 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MacLibre3_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MacLibre3;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPYING_PRESERVES_HFS_DATA = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MacLibre3_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MacLibre3;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacLibre3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacLibre3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
