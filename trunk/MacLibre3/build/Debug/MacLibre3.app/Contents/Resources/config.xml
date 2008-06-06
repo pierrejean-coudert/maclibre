@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration Version="1.0" DefaultConfig="MacLibre online">
+<Config Name="MacLibre online">
+    <Version>online</Version> <!-- online/offline/mixed -->
+    <VersionNumber>0.2</VersionNumber>
+    <Language>English</Language>
+    <Url>https://winlibre.svn.sourceforge.net/svnroot/winlibre/MacLibre2/xml/en.xml</Url>
+</Config>
+<Config Name="MacLibre offline">
+    <Version>offline</Version> <!-- online/offline/mixed -->
+    <VersionNumber>0.2</VersionNumber>
+    <Language>English</Language>
+    <Url>file://en.xml</Url>
+</Config>
+</Configuration>
