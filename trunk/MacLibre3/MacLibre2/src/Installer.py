@@ -7,7 +7,7 @@ import shutil
 from tools import getResourcesPath
 from MD5 import *
 from Distribution import *
-from Downloader import Downloader
+from Downloader3 import Downloader
 from DmgContainer import *
 from ZipContainer import *
 from AppManager import *
@@ -25,16 +25,17 @@ from PkgManager import *
 
 #<Installer>
 
-class InstallerProgressThread(threading.Thread):
-    def __init__(self,installer):
-        threading.Thread.__init__(self)	
-        self.installer = installer
-    
-    def run(self):
-        self.pool=NSAutoreleasePool.alloc().init()
-        self.installer.processInstallation()
-        print 'End of installation'
-        self.pool.release()
+class InstallerProgressThread:
+    pass
+#    def __init__(self,installer):
+#        threading.Thread.__init__(self)	
+#        self.installer = installer
+#    
+#    def run(self):
+#        self.pool=NSAutoreleasePool.alloc().init()
+#        self.installer.processInstallation()
+#        print 'End of installation'
+#        self.pool.release()
 
 class Installer:
     """ This class does all the process of programs installation """
@@ -99,8 +100,16 @@ class Installer:
             print '\t' + '\t' + package.todo
         print
 
-        self.installerProgressThread = InstallerProgressThread(self)
-        self.installerProgressThread.start()
+        #self.installerProgressThread = InstallerProgressThread(self)
+        #self.installerProgressThread.start()
+        self.processInstallation()
+        #NSThread.detachNewThreadSelector_toTarget_withObject_('processInstallation:', self, None)
+        
+
+    def processInstallation_(self, argToIgnore):
+        pool=NSAutoreleasePool.alloc().init()
+        self.processInstallation()
+        del pool
 
     def processInstallation(self):
         """Downloading and installing all selected packages"""
@@ -143,6 +152,8 @@ class Installer:
                         self.installationStatus[package.name]['finalize'] = True
                     else:
                         print 'Successful download of ' + package.name
+                else:
+                    return
                         
                 self.overallProgressValue += self.overallPkgPieceSize
                 self.setOverallProgressValue( self.overallProgressValue )
@@ -285,11 +296,14 @@ class Installer:
                 print
                 print labelText + package.name
                 
-                downloader = Downloader( url , destination , file.size, self.progressionPage, md5=file.md5 )
+                downloader = Downloader.alloc().init()
+                downloader.setup( url , destination , file.size, self.progressionPage, md5=file.md5 )
                 downloader.start()
                 #self.progressionPage.gaugeDesc.SetLabel('                                                                                      ')
                 self.progressionPage.gaugeDesc.SetLabel(labelText + package.name)
-                self.progressionPage.gaugeDesc.Refresh()        
+                self.progressionPage.gaugeDesc.Refresh()  
+                downloader.registerFinishFunction(self,'processInstallation')
+                return False      
                 downloader.join()
                 
                 if not downloader.downloadResult():
