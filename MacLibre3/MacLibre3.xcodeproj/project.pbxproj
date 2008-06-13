@@ -10,6 +10,7 @@
 		6381BAA80DF74265005A13F0 /* InstallationGUI.py in Resources */ = {isa = PBXBuildFile; fileRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */; };
 		63AD59DA0DF5E07800039DCE /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD59D90DF5E07800039DCE /* SecurityInterface.framework */; };
 		63AD5A2E0DF5E56D00039DCE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD5A2D0DF5E56D00039DCE /* Security.framework */; };
+		63C8B1AA0DFDA0B00048F045 /* Downloader3.py in Resources */ = {isa = PBXBuildFile; fileRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */; };
 		63DD43890DEBBB520074CC48 /* AbiWord.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43400DEBBB510074CC48 /* AbiWord.png */; };
 		63DD438A0DEBBB520074CC48 /* Adium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43410DEBBB510074CC48 /* Adium.png */; };
 		63DD438B0DEBBB520074CC48 /* Audacity.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43420DEBBB510074CC48 /* Audacity.png */; };
@@ -99,6 +100,7 @@
 		6381BAA70DF74265005A13F0 /* InstallationGUI.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = InstallationGUI.py; sourceTree = "<group>"; };
 		63AD59D90DF5E07800039DCE /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = /System/Library/Frameworks/SecurityInterface.framework; sourceTree = "<absolute>"; };
 		63AD5A2D0DF5E56D00039DCE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		63C8B1A90DFDA0B00048F045 /* Downloader3.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Downloader3.py; sourceTree = SOURCE_ROOT; };
 		63DD43400DEBBB510074CC48 /* AbiWord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AbiWord.png; sourceTree = "<group>"; };
 		63DD43410DEBBB510074CC48 /* Adium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adium.png; sourceTree = "<group>"; };
 		63DD43420DEBBB510074CC48 /* Audacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Audacity.png; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 		63DD436F0DEBBB520074CC48 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				63C8B1A90DFDA0B00048F045 /* Downloader3.py */,
 				63DD43700DEBBB520074CC48 /* AppManager.py */,
 				63DD43710DEBBB520074CC48 /* Config.py */,
 				63DD43720DEBBB520074CC48 /* DistribGenerator.py */,
@@ -531,6 +534,7 @@
 				63DD456E0DEC69780074CC48 /* MacLibre3.py in Resources */,
 				63DD46B20DEDE18C0074CC48 /* PackageList.py in Resources */,
 				6381BAA80DF74265005A13F0 /* InstallationGUI.py in Resources */,
+				63C8B1AA0DFDA0B00048F045 /* Downloader3.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
