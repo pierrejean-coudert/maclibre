@@ -2,6 +2,8 @@ from Foundation import *
 from AppKit import *
 import objc
 import sys
+import os
+from Downloader3 import Downloader
 from MacLibre import *
 from Parser import Parser
 from Installer import Installer
@@ -19,16 +21,20 @@ class MacLibre3(NSObject):
     auth=objc.IBOutlet()
     nextButton=objc.IBOutlet()
     installation=objc.IBOutlet()
+    webView=objc.IBOutlet()
     maclibre=MacLibre()
     
     @objc.IBAction
     def nextPage_(self, sender):
         if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 0:
-            if self.maclibre.chooseWebXml():
-                parserWeb = Parser(self.maclibre.xmlMaclibrePath)
-                parserUser = Parser(self.maclibre.xmlUserPath)
-                self.packList.dataSource().load_(parserWeb.parse(), parserUser.parse())
-                self.tabs.selectNextTabViewItem_(1)
+            #self.maclibre.chooseWebXml()
+            defaultUrl = self.maclibre.configuration.getDefaultConfig().url
+            xmlMacLibre = os.path.join( self.maclibre.maclibreDir , os.path.split(defaultUrl)[1] )
+            down = Downloader.alloc().init()
+            down.setup(defaultUrl,xmlMacLibre)
+            down.registerFinishFunction(self,'processPackages')
+            down.start()
+            self.maclibre.xmlMaclibrePath=xmlMacLibre      
         else:
             if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 1:
                 self.packConf.setDataSource_(self.packList.dataSource())
@@ -47,6 +53,7 @@ class MacLibre3(NSObject):
 
     @objc.IBAction
     def previousPage_(self, sender):
+        self.webView.setMainFrameURL_("https://winlibre.svn.sourceforge.net/svnroot/winlibre/MacLibre2/xml/en.xml")
         self.tabs.selectPreviousTabViewItem_(1)
         
     @objc.IBAction
@@ -59,3 +66,10 @@ class MacLibre3(NSObject):
         
     def authorizationViewReleasedAuthorization_(self, view):
         self.nextButton.setEnabled_(False)
+        
+    
+    def processPackages(self):
+        parserWeb = Parser(self.maclibre.xmlMaclibrePath)
+        parserUser = Parser(self.maclibre.xmlUserPath)
+        self.packList.dataSource().load_(parserWeb.parse(), parserUser.parse())
+        self.tabs.selectNextTabViewItem_(1)
