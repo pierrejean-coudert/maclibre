@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633E4D9C0E071ABA003C170D /* Downloader3.py in Resources */ = {isa = PBXBuildFile; fileRef = 633E4D9B0E071ABA003C170D /* Downloader3.py */; };
 		6381BAA80DF74265005A13F0 /* InstallationGUI.py in Resources */ = {isa = PBXBuildFile; fileRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */; };
 		63AD59DA0DF5E07800039DCE /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD59D90DF5E07800039DCE /* SecurityInterface.framework */; };
 		63AD5A2E0DF5E56D00039DCE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD5A2D0DF5E56D00039DCE /* Security.framework */; };
@@ -97,6 +98,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* MacLibre3_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacLibre3_Prefix.pch; sourceTree = "<group>"; };
+		633E4D9B0E071ABA003C170D /* Downloader3.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Downloader3.py; sourceTree = "<group>"; };
+		633E4DB60E071B3D003C170D /* MacLibre3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLibre3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6381BAA70DF74265005A13F0 /* InstallationGUI.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = InstallationGUI.py; sourceTree = "<group>"; };
 		63AD59D90DF5E07800039DCE /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = /System/Library/Frameworks/SecurityInterface.framework; sourceTree = "<absolute>"; };
 		63AD5A2D0DF5E56D00039DCE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
@@ -175,7 +178,6 @@
 		7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MacLibre3AppDelegate.py; sourceTree = "<group>"; };
 		77C8C1F80C07829500965286 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* MacLibre3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLibre3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				633E4D9B0E071ABA003C170D /* Downloader3.py */,
 				6381BAA70DF74265005A13F0 /* InstallationGUI.py */,
 				63DD46B10DEDE18C0074CC48 /* PackageList.py */,
 				63DD456D0DEC69780074CC48 /* MacLibre3.py */,
@@ -228,7 +231,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* MacLibre3.app */,
+				633E4DB60E071B3D003C170D /* MacLibre3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -436,7 +439,7 @@
 			name = MacLibre3;
 			productInstallPath = "$(HOME)/Applications";
 			productName = MacLibre3;
-			productReference = 8D1107320486CEB800E47090 /* MacLibre3.app */;
+			productReference = 633E4DB60E071B3D003C170D /* MacLibre3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -535,6 +538,7 @@
 				63DD46B20DEDE18C0074CC48 /* PackageList.py in Resources */,
 				6381BAA80DF74265005A13F0 /* InstallationGUI.py in Resources */,
 				63C8B1AA0DFDA0B00048F045 /* Downloader3.py in Resources */,
+				633E4D9C0E071ABA003C170D /* Downloader3.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
