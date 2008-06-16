@@ -102,13 +102,15 @@ class Installer:
 
         #self.installerProgressThread = InstallerProgressThread(self)
         #self.installerProgressThread.start()
-        self.processInstallation()
-        #NSThread.detachNewThreadSelector_toTarget_withObject_('processInstallation:', self, None)
+        #self.processInstallation()
+        NSThread.detachNewThreadSelector_toTarget_withObject_('processInstallation:', self, None)
         
 
     def processInstallation_(self, argToIgnore):
         pool=NSAutoreleasePool.alloc().init()
+        NSLog('starting installer')
         self.processInstallation()
+        NSLog('ending installer')
         del pool
 
     def processInstallation(self):
@@ -303,7 +305,7 @@ class Installer:
                 self.progressionPage.gaugeDesc.SetLabel(labelText + package.name)
                 self.progressionPage.gaugeDesc.Refresh()  
                 downloader.registerFinishFunction(self,'processInstallation')
-                return False      
+                #return False      
                 downloader.join()
                 
                 if not downloader.downloadResult():
@@ -471,6 +473,7 @@ class Installer:
                     self.progressionPage.gauge.SetRange(100)
                     app = AppManager( dotApps[self.idApp], todo, self.progressionPage, lenApps )
                     app.start()
+                    NSLog('calling app.join()')
                     app.join()
                     if not app.getAppResult():
                         if not self.installationStatus[self.currentPkg.name]['overwrite']:
