@@ -10,7 +10,7 @@ import sys
 import os
 
 from Foundation import *
-from Downloader import Downloader
+from Downloader3 import Downloader
 from GUI_MaclibreWizard import *
 import Config
 from tools import getResourcesPath
@@ -74,9 +74,12 @@ class MacLibre:
         
         if os.path.exists(xmlMacLibre):
             os.remove(xmlMacLibre)
-        down = Downloader(defaultUrl,xmlMacLibre)
+        down = Downloader.alloc().init()
+        down.setup(defaultUrl,xmlMacLibre)
 
+        NSLog('start')
         down.start()
+        NSLog('join')
         down.join()
 
         result = down.downloadResult()
