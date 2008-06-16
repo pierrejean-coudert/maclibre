@@ -69,4 +69,6 @@ class InstallationGUI(NSObject):
         
     def ForwardOnOff(self):
         pass
-            
+    
+    def Overwrite(self, arg):
+        return True
