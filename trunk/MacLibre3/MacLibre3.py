@@ -7,6 +7,9 @@ from Downloader3 import Downloader
 from MacLibre import *
 from Parser import Parser
 from Installer import Installer
+from Prefs import *
+
+
 objc.loadBundle("SecurityInterface", globals(), 
 bundle_path="/System/Library/Frameworks/SecurityFoundation.framework")
 
@@ -29,12 +32,15 @@ class MacLibre3(NSObject):
         if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 0:
             #self.maclibre.chooseWebXml()
             defaultUrl = self.maclibre.configuration.getDefaultConfig().url
-            xmlMacLibre = os.path.join( self.maclibre.maclibreDir , os.path.split(defaultUrl)[1] )
-            down = Downloader.alloc().init()
-            down.setup(defaultUrl,xmlMacLibre)
-            down.registerFinishFunction(self,'processPackages')
-            down.start()
-            self.maclibre.xmlMaclibrePath=xmlMacLibre      
+            #xmlMacLibre = os.path.join( self.maclibre.maclibreDir , os.path.split(defaultUrl)[1] )
+            #down = Downloader.alloc().init()
+            #down.setup(defaultUrl,xmlMacLibre)
+            #down.registerFinishFunction(self,'processPackages')
+            #down.start()
+            #self.maclibre.xmlMaclibrePath=xmlMacLibre
+            dist=parse(downloadXML(defaultUrl))
+            self.packList.dataSource().load_(dist, None)
+            self.tabs.selectNextTabViewItem_(1)      
         else:
             if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 1:
                 self.packConf.setDataSource_(self.packList.dataSource())

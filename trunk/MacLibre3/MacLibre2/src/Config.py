@@ -27,6 +27,9 @@ class Config:
         print 'Url: ' + self.url
         print
 
+    def makeDict(self):
+        return {"name":self.name, "version":self.version, "versionNumber":self.versionNumber, "language":self.language, "url":self.url}
+
 #</Config>
 
 #<Configuration>

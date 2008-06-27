@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		633E4D9C0E071ABA003C170D /* Downloader3.py in Resources */ = {isa = PBXBuildFile; fileRef = 633E4D9B0E071ABA003C170D /* Downloader3.py */; };
+		633E4E150E12E9C2003C170D /* Prefs.py in Resources */ = {isa = PBXBuildFile; fileRef = 633E4E140E12E9C2003C170D /* Prefs.py */; };
 		6381BAA80DF74265005A13F0 /* InstallationGUI.py in Resources */ = {isa = PBXBuildFile; fileRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */; };
 		63AD59DA0DF5E07800039DCE /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD59D90DF5E07800039DCE /* SecurityInterface.framework */; };
 		63AD5A2E0DF5E56D00039DCE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD5A2D0DF5E56D00039DCE /* Security.framework */; };
@@ -100,6 +101,7 @@
 		32CA4F630368D1EE00C91783 /* MacLibre3_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacLibre3_Prefix.pch; sourceTree = "<group>"; };
 		633E4D9B0E071ABA003C170D /* Downloader3.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Downloader3.py; sourceTree = "<group>"; };
 		633E4DB60E071B3D003C170D /* MacLibre3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLibre3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633E4E140E12E9C2003C170D /* Prefs.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Prefs.py; sourceTree = "<group>"; };
 		6381BAA70DF74265005A13F0 /* InstallationGUI.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = InstallationGUI.py; sourceTree = "<group>"; };
 		63AD59D90DF5E07800039DCE /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = /System/Library/Frameworks/SecurityInterface.framework; sourceTree = "<absolute>"; };
 		63AD5A2D0DF5E56D00039DCE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
@@ -198,6 +200,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				633E4E140E12E9C2003C170D /* Prefs.py */,
 				633E4D9B0E071ABA003C170D /* Downloader3.py */,
 				6381BAA70DF74265005A13F0 /* InstallationGUI.py */,
 				63DD46B10DEDE18C0074CC48 /* PackageList.py */,
@@ -539,6 +542,7 @@
 				6381BAA80DF74265005A13F0 /* InstallationGUI.py in Resources */,
 				63C8B1AA0DFDA0B00048F045 /* Downloader3.py in Resources */,
 				633E4D9C0E071ABA003C170D /* Downloader3.py in Resources */,
+				633E4E150E12E9C2003C170D /* Prefs.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
