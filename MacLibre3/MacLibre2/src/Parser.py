@@ -8,16 +8,21 @@ class Parser:
     """ This class parse a maclibre xml. """
 
     #<init>
-    def __init__(self,xmlPath):
+    def __init__(self,xmlPath, noFile=False):
 	self.xmlPath = xmlPath
 	self.distrib = Distribution()
+        self.noFile=noFile
     #</init>
 
     #<parse>
     def parse(self):
 	""" This method parse the xml file and return a Distribution object"""
 	try:
-	    xml = minidom.parse(self.xmlPath)
+            if self.noFile:
+                xml = minidom.parseString(self.xmlPath)
+            else:
+                xml = minidom.parse(self.xmlPath)
+            
 	except (IOError, ExpatError):
 	    return self.distrib
 

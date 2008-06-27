@@ -12,7 +12,7 @@ from DmgContainer import *
 from ZipContainer import *
 from AppManager import *
 from PkgManager import *
-
+from Prefs import *
 #<TODO>
 # the thread-class-update-GUI (ie:Downloader,AppManager,PkgManager) thing is ugly ! : 
 #     use something like wx.PostEvent and a wx custom event in replacement.
@@ -482,6 +482,8 @@ class Installer:
             else:
                 self.reason = 'UNKNOWN_TODO' 
                 return False
+        record=InstalledPackage(self.currentPkg.name,self.currentPkg.version,dotApps[0])
+        record.register()
         return True
 
     def finalizeContainer(self,package="None",lastStatement='init'):
@@ -509,7 +511,7 @@ class Installer:
 
     def saveInstalled(self):
         """ save user' selection in the installed.xml file. call self.finished when finished """
-
+        return True
 
         #debug
         print
