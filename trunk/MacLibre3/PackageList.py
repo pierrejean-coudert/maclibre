@@ -3,6 +3,9 @@ from Foundation import *
 import objc
 import AppKit
 import tools
+
+from Prefs import Prefs
+
 objc.setVerbose(1)
 
 
@@ -76,15 +79,13 @@ class PackageList (NSObject):
             return False
         else:
             package=self.dist.categories[item.category].packages[item.value]
-            if package.todo == 'INSTALL':
-                package.todo = ''
-            else:
-                package.todo='INSTALL'
+            prefs=Prefs()
+            package.todo = prefs.getTodo(package.name, package.todo) 
             return True
             
     def numberOfRowsInTableView_(self, tableview):
         self.targets=[]
-        [self.targets.extend([package for package in category.packages if package.todo == 'INSTALL']) for category in self.dist.categories]
+        [self.targets.extend([package for package in category.packages if package.todo]) for category in self.dist.categories]
         return len(self.targets)
         
     def tableView_objectValueForTableColumn_row_(self, tableview, column, row):

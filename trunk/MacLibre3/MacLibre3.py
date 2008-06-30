@@ -22,6 +22,7 @@ class MacLibre3(NSObject):
     packList=objc.IBOutlet()
     packConf=objc.IBOutlet()
     auth=objc.IBOutlet()
+    previousButton=objc.IBOutlet()
     nextButton=objc.IBOutlet()
     installation=objc.IBOutlet()
     webView=objc.IBOutlet()
@@ -40,7 +41,8 @@ class MacLibre3(NSObject):
             #self.maclibre.xmlMaclibrePath=xmlMacLibre
             dist=parse(downloadXML(defaultUrl))
             self.packList.dataSource().load_(dist, None)
-            self.tabs.selectNextTabViewItem_(1)      
+            self.tabs.selectNextTabViewItem_(1)
+            self.previousButton.setEnabled_(True)      
         else:
             if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 1:
                 self.packConf.setDataSource_(self.packList.dataSource())
@@ -55,16 +57,18 @@ class MacLibre3(NSObject):
                 self.installation.setSelected(self.packList.dataSource().dist, self.packList.dataSource().inst)
                 self.installer=Installer(self.installation)
                 self.installation.setup(self.installation, self.maclibre, self.installer)
-                self.installer.install()
+                self.installer.install(getattr(self.tabs,'selectNextTabViewItem_'))
 
     @objc.IBAction
     def previousPage_(self, sender):
         self.webView.setMainFrameURL_("https://winlibre.svn.sourceforge.net/svnroot/winlibre/MacLibre2/xml/en.xml")
         self.tabs.selectPreviousTabViewItem_(1)
+        if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 0:
+            self.previousButton.setEnabled_(False)
         
     @objc.IBAction
     def quit_(self, sender):
-        sys.exit()
+        NSApp.terminate_(None)
 
     
     def authorizationViewDidAuthorize_(self, view):

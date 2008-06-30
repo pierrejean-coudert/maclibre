@@ -65,11 +65,11 @@ class Installer:
         self.todoKnown = {'INSTALL':'Installing ','REINSTALL':'Re-installing ','UPDATE':'Updating '}
         self.reason = '' # reason why don't installing a package
 
-    def install(self):
+    def install(self, finishFunc=None):
         """ call self.calculateDependencies """
-        self.calculateDependencies()
+        self.calculateDependencies(finishFunc)
 
-    def calculateDependencies(self):
+    def calculateDependencies(self, finishFunc=None):
         """ calculate dependencies. ie : add packages in the correct order (dependencies) in self.orderToInstall. call self.download when finished"""
         self.progressionPage.gaugeDesc.SetLabel('                                                                                      ')
         self.progressionPage.gaugeDesc.SetLabel('Calculating dependencies...')
@@ -103,13 +103,14 @@ class Installer:
         #self.installerProgressThread = InstallerProgressThread(self)
         #self.installerProgressThread.start()
         #self.processInstallation()
-        NSThread.detachNewThreadSelector_toTarget_withObject_('processInstallation:', self, None)
+        NSThread.detachNewThreadSelector_toTarget_withObject_('processInstallation:', self, finishFunc)
         
 
-    def processInstallation_(self, argToIgnore):
+    def processInstallation_(self, finishFunc):
         pool=NSAutoreleasePool.alloc().init()
         NSLog('starting installer')
         self.processInstallation()
+        finishFunc(1)
         NSLog('ending installer')
         del pool
 
@@ -472,7 +473,7 @@ class Installer:
 
                     self.progressionPage.gauge.SetRange(100)
                     app = AppManager( dotApps[self.idApp], todo, self.progressionPage, lenApps )
-                    app.start()
+                    installedLocation=app.start()
                     NSLog('calling app.join()')
                     app.join()
                     if not app.getAppResult():
@@ -482,9 +483,10 @@ class Installer:
             else:
                 self.reason = 'UNKNOWN_TODO' 
                 return False
-        record=InstalledPackage(self.currentPkg.name,self.currentPkg.version,dotApps[0])
-        record.register()
-        return True
+            print str(self.currentPkg)
+            record=InstalledPackage(self.currentPkg.name,self.currentPkg.installations[0].version,installedLocation)
+            record.register()
+            return True
 
     def finalizeContainer(self,package="None",lastStatement='init'):
         """Finalize container of current package.

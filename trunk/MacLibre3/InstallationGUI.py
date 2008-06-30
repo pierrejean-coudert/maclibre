@@ -58,10 +58,10 @@ class InstallationGUI(NSObject):
     def setSelected(self, dist, inst):
         self.selected=dist
         self.installed=inst
-        self.selected.categories=[category for category in dist.categories if len([package for package in category.packages if package.todo == 'INSTALL'])>0]
+        self.selected.categories=[category for category in dist.categories if len([package for package in category.packages if package.todo])>0]
         self.pages=[None,None,Page.alloc().init_().retain()]
         for category in self.selected.categories:
-            category.packages = [package for package in category.packages if package.todo == 'INSTALL']
+            category.packages = [package for package in category.packages if package.todo]
             self.pages[2].increment(len(category.packages))
             
     def enableAppLogoImage(self, value):
