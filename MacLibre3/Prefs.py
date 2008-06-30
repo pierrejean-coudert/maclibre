@@ -30,7 +30,7 @@ class InstalledPackage:
         print "got installed"
         print str(installed)
         if installed:
-            installed=[package for package in installed]
+            installed=[package for package in installed if package[0] != self.name]
             installed.append((self.name, self.version, self.location))
         else:
             installed=[(self.name, self.version, self.location)]
@@ -40,10 +40,23 @@ class InstalledPackage:
         print "updated installed"
 
 class Prefs:
-    def setDefaults(self, configuration):
+    def __init__(self):
         defaults=NSUserDefaults.standardUserDefaults()
-        configs=[c.makeDict() for c in configuration.configs]
-        defaults.registerDefaults_(c)
+        self.installed=defaults.objectForKey_('installedPackages')
+        
+    def getTodo(self, name, todo):
+        current = [package for package in self.installed if package[0] == name]
+        if todo == '':
+            if current:
+                return 'UPDATE'
+            else:
+                return 'INSTALL'
+        else:
+            return ''
+#    def setDefaults(self, configuration):
+#        defaults=NSUserDefaults.standardUserDefaults()
+#        configs=[c.makeDict() for c in configuration.configs]
+#        defaults.registerDefaults_(c)
     
 def downloadXML(url):
     request=NSURLRequest.requestWithURL_(NSURL.URLWithString_(url))

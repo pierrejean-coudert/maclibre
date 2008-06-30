@@ -41,6 +41,7 @@ class AppManager:
     
     def start(self):
         NSThread.detachNewThreadSelector_toTarget_withObject_('run:',self,None)
+        return self.destination
     
     def run_(self, argToIgnore=None):
         pool=NSAutoreleasePool.alloc().init()
