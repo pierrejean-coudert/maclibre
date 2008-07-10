@@ -11,11 +11,14 @@ from AppKit import *
 from WebKit import *
 import objc
 
+from Prefs import Prefs
 
 class Downloader(NSObject):
-    def setup(self, url, destination, filesize=0, GUI_ProgressionPage=None, md5=None):
+    def setup(self, url, destination, filesize=0, GUI_ProgressionPage=None, md5=None, maclibre3=None):
         self.url=url
+        #self.destination=NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, True)[0]
         self.destination=destination
+        print self.destination
         self.filesize=filesize
         self.progressionPage=GUI_ProgressionPage
         self.md5=md5
@@ -25,6 +28,8 @@ class Downloader(NSObject):
         self.response=None
         self.bytesReceived=0
         self.finishFunction=None
+        self.prefs=Prefs()
+        maclibre3.registerDownloader(self)
         
         if self.progressionPage is not None:
             self.progressionPage.gauge.SetRange(100)
@@ -50,15 +55,20 @@ class Downloader(NSObject):
         objc.setVerbose(1)
         if not self.useProgressFunction:
             print 'Downloading: ' + self.url
-        request=NSURLRequest.requestWithURL_(NSURL.URLWithString_(self.url))
-        NSLog('request ok')
-        self.dl=NSURLDownload.alloc().initWithRequest_delegate_(request, self)
-        NSLog(str(self.dl))
-        if (self.dl):
-            #NSLog('init ok')
-            self.dl.setDestination_allowOverwrite_(self.destination,True)
-            NSLog(self.destination)
-            NSLog(str(self.dl.request()))
+        (resume,self.response) = self.prefs.getDownload(self.url)
+        if resume:
+            print resume
+            self.dl=NSURLDownload.alloc().initWithResumeData_delegate_path_(resume, self, self.destination)
+            if self.dl:
+                self.dl.setDeletesFileUponFailure_(False)
+        else:
+            request=NSURLRequest.requestWithURL_(NSURL.URLWithString_(self.url))
+            NSLog('request ok')
+            self.dl=NSURLDownload.alloc().initWithRequest_delegate_(request, self)
+            NSLog(str(self.dl))
+            if self.dl:
+                self.dl.setDestination_allowOverwrite_(self.destination,True)
+                self.dl.setDeletesFileUponFailure_(False)
     
     def download_decideDestinationWithSuggestedFilename_(self, download, name):
         NSLog('decideDestinationWithSuggestedFilename')
@@ -79,6 +89,7 @@ class Downloader(NSObject):
         NSLog('didFinish')
         #self.dl.release()
         self.download=True
+        self.prefs.clearDownload(self.url)
         #if self.progressionPage:
         #    self.progressionPage.installer.correctlyDownloaded[self.progressionPage.installer.idPkg] = self.download
         if self.finishFunction:
@@ -92,6 +103,8 @@ class Downloader(NSObject):
             total=self.response.expectedContentLength()
             if total is not NSURLResponseUnknownLength:
                 return 100.0*self.bytesReceived/total
+        else:
+            return 0
         
     def download_didReceiveResponse_(self, download, response):
         NSLog('didReceiveResponse')
@@ -104,3 +117,12 @@ class Downloader(NSObject):
         if self.progressionPage is not None:
             self.progressionPage.gauge.SetValue(self.statement())
             self.progressionPage.smallDesc.SetLabel("%f / %f"% (self.bytesReceived, self.response.expectedContentLength()))
+        #print self.dl.resumeData()
+        #self.dl.setDeletesFileUponFailure_(False)
+        #self.dl.cancel()
+        #print self.dl.resumeData()
+        #print self.destination
+        #resume=self.dl.resumeData()
+        #self.prefs.setDownload(self.url,resume)
+        #self.dl=NSURLDownload.alloc().initWithResumeData_delegate_path_(resume, self, self.destination)
+        #self.dl.setDeletesFileUponFailure_(False)

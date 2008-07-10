@@ -40,7 +40,7 @@ class InstallerProgressThread:
 class Installer:
     """ This class does all the process of programs installation """
 
-    def __init__(self,GUI_ProgressionPage):
+    def __init__(self,GUI_ProgressionPage, maclibre3=None):
         self.progressionPage = GUI_ProgressionPage
         self.installationStarted = False
         self.installationStatus = {}
@@ -64,6 +64,7 @@ class Installer:
 
         self.todoKnown = {'INSTALL':'Installing ','REINSTALL':'Re-installing ','UPDATE':'Updating '}
         self.reason = '' # reason why don't installing a package
+        self.maclibre3=maclibre3
 
     def install(self, finishFunc=None):
         """ call self.calculateDependencies """
@@ -261,6 +262,9 @@ class Installer:
         else:
 
             packageDir = os.path.join( self.progressionPage.maclibreWizard.maclibre.maclibrePackagesDir, package.name )
+            #packageDir=NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, True)[0]
+            #packageDir+="/Maclibre3/"
+            #packageDir+=package.name
             file = package.installations[0].file
             destination = os.path.join(packageDir,file.name)
             self.lenUrl = len(file.urls)
@@ -283,9 +287,10 @@ class Installer:
                 return True
             else:
                 print '\t launching download '
-                if os.path.exists(packageDir) : shutil.rmtree(packageDir)
+                #if os.path.exists(packageDir) : shutil.rmtree(packageDir)
                 url = file.urls[self.idUrl]
-                os.makedirs( packageDir )
+                if not os.path.exists(packageDir):
+                    os.makedirs( packageDir )
                 
                 distribVersion = self.progressionPage.maclibreWizard.maclibre.configuration.getDefaultConfig().version
             
@@ -300,7 +305,7 @@ class Installer:
                 print labelText + package.name
                 
                 downloader = Downloader.alloc().init()
-                downloader.setup( url , destination , file.size, self.progressionPage, md5=file.md5 )
+                downloader.setup( url , destination , file.size, self.progressionPage, md5=file.md5, maclibre3=self.maclibre3 )
                 downloader.start()
                 #self.progressionPage.gaugeDesc.SetLabel('                                                                                      ')
                 self.progressionPage.gaugeDesc.SetLabel(labelText + package.name)
