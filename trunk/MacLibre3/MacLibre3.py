@@ -25,6 +25,7 @@ class MacLibre3(NSObject):
     previousButton=objc.IBOutlet()
     nextButton=objc.IBOutlet()
     installation=objc.IBOutlet()
+    pauseButton=objc.IBOutlet()
     webView=objc.IBOutlet()
     maclibre=MacLibre()
     
@@ -55,20 +56,37 @@ class MacLibre3(NSObject):
             self.tabs.selectNextTabViewItem_(1)
             if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 3:
                 self.installation.setSelected(self.packList.dataSource().dist, self.packList.dataSource().inst)
-                self.installer=Installer(self.installation)
+                self.installer=Installer(self.installation, self)
                 self.installation.setup(self.installation, self.maclibre, self.installer)
                 self.installer.install(getattr(self.tabs,'selectNextTabViewItem_'))
 
     @objc.IBAction
     def previousPage_(self, sender):
-        self.webView.setMainFrameURL_("https://winlibre.svn.sourceforge.net/svnroot/winlibre/MacLibre2/xml/en.xml")
-        self.tabs.selectPreviousTabViewItem_(1)
-        if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 0:
-            self.previousButton.setEnabled_(False)
+        #self.webView.setMainFrameURL_("https://winlibre.svn.sourceforge.net/svnroot/winlibre/MacLibre2/xml/en.xml")
+        #self.tabs.selectPreviousTabViewItem_(1)
+        #if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 0:
+        #    self.previousButton.setEnabled_(False)
+        if (self.downloader):
+            print self.downloader.dl.resumeData()
+            self.downloader.dl.cancel()
+            print self.downloader.dl.resumeData()
         
     @objc.IBAction
     def quit_(self, sender):
         NSApp.terminate_(None)
+    
+    @objc.IBAction
+    def pauseOrResume_(self, sender):
+        prefs=Prefs()
+        if self.pauseButton.title() == "Pause Download":
+            if (self.downloader):
+                self.downloader.dl.cancel()
+                resume=self.downloader.dl.resumeData()
+                prefs.setDownload(self.downloader.url,resume,self.downloader.response)
+                self.pauseButton.setTitle_("Resume Download")
+        else:
+            self.installer.install(getattr(self.tabs,'selectNextTabViewItem_'))
+            self.pauseButton.setTitle_("Pause Download")
 
     
     def authorizationViewDidAuthorize_(self, view):
@@ -83,3 +101,6 @@ class MacLibre3(NSObject):
         parserUser = Parser(self.maclibre.xmlUserPath)
         self.packList.dataSource().load_(parserWeb.parse(), parserUser.parse())
         self.tabs.selectNextTabViewItem_(1)
+        
+    def registerDownloader(self, downloader):
+        self.downloader=downloader

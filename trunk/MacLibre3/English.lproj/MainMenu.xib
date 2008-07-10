@@ -2,14 +2,14 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.02">
 	<data>
 		<int key="IBDocument.SystemTarget">1050</int>
-		<string key="IBDocument.SystemVersion">9D34</string>
+		<string key="IBDocument.SystemVersion">9E17</string>
 		<string key="IBDocument.InterfaceBuilderVersion">670</string>
 		<string key="IBDocument.AppKitVersion">949.33</string>
 		<string key="IBDocument.HIToolboxVersion">352.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="29"/>
 			<integer value="380"/>
-			<integer value="57"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1408,6 +1408,26 @@
 													<reference key="NSTextColor" ref="709787540"/>
 												</object>
 											</object>
+											<object class="NSButton" id="124931632">
+												<reference key="NSNextResponder" ref="149230030"/>
+												<int key="NSvFlags">268</int>
+												<string key="NSFrame">{{275, 70}, {144, 32}}</string>
+												<reference key="NSSuperview" ref="149230030"/>
+												<bool key="NSEnabled">YES</bool>
+												<object class="NSButtonCell" key="NSCell" id="1071980924">
+													<int key="NSCellFlags">67239424</int>
+													<int key="NSCellFlags2">134217728</int>
+													<string key="NSContents">Pause Download</string>
+													<reference key="NSSupport" ref="624509983"/>
+													<reference key="NSControlView" ref="124931632"/>
+													<int key="NSButtonFlags">-2038284033</int>
+													<int key="NSButtonFlags2">129</int>
+													<string key="NSAlternateContents"/>
+													<string key="NSKeyEquivalent"/>
+													<int key="NSPeriodicDelay">200</int>
+													<int key="NSPeriodicInterval">25</int>
+												</object>
+											</object>
 										</object>
 										<string key="NSFrame">{{10, 33}, {662, 345}}</string>
 									</object>
@@ -2054,6 +2074,22 @@
 						<reference key="destination" ref="764348170"/>
 					</object>
 					<int key="connectionID">482</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">pauseOrResume:</string>
+						<reference key="source" ref="595397000"/>
+						<reference key="destination" ref="124931632"/>
+					</object>
+					<int key="connectionID">485</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">pauseButton</string>
+						<reference key="source" ref="595397000"/>
+						<reference key="destination" ref="124931632"/>
+					</object>
+					<int key="connectionID">486</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2795,6 +2831,7 @@
 							<reference ref="1029230069"/>
 							<reference ref="795497102"/>
 							<reference ref="452991204"/>
+							<reference ref="124931632"/>
 						</object>
 						<reference key="parent" ref="169324172"/>
 					</object>
@@ -3158,6 +3195,20 @@
 						<reference key="object" ref="546945486"/>
 						<reference key="parent" ref="182453584"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">483</int>
+						<reference key="object" ref="124931632"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="1071980924"/>
+						</object>
+						<reference key="parent" ref="149230030"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">484</int>
+						<reference key="object" ref="1071980924"/>
+						<reference key="parent" ref="124931632"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -3358,6 +3409,8 @@
 					<string>478.IBPluginDependency</string>
 					<string>480.IBPluginDependency</string>
 					<string>481.IBPluginDependency</string>
+					<string>483.IBPluginDependency</string>
+					<string>484.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.ImportedFromIB2</string>
 					<string>56.IBPluginDependency</string>
@@ -3533,9 +3586,9 @@
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{85, 557}, {740, 487}}</string>
+					<string>{{413, 551}, {740, 487}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{85, 557}, {740, 487}}</string>
+					<string>{{413, 551}, {740, 487}}</string>
 					<reference ref="9"/>
 					<string>{{238, 285}, {480, 360}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3588,6 +3641,8 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.WebKitIBPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3647,7 +3702,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">482</int>
+			<int key="maxID">486</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3697,11 +3752,13 @@
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>nextPage:</string>
+							<string>pauseOrResume:</string>
 							<string>previousPage:</string>
 							<string>quit:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -3716,12 +3773,14 @@
 							<string>nextButton</string>
 							<string>packConf</string>
 							<string>packList</string>
+							<string>pauseButton</string>
 							<string>previousButton</string>
 							<string>tabs</string>
 							<string>webView</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
