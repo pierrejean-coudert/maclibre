@@ -10,6 +10,8 @@
 		633E4D9C0E071ABA003C170D /* Downloader3.py in Resources */ = {isa = PBXBuildFile; fileRef = 633E4D9B0E071ABA003C170D /* Downloader3.py */; };
 		633E4E150E12E9C2003C170D /* Prefs.py in Resources */ = {isa = PBXBuildFile; fileRef = 633E4E140E12E9C2003C170D /* Prefs.py */; };
 		6381BAA80DF74265005A13F0 /* InstallationGUI.py in Resources */ = {isa = PBXBuildFile; fileRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */; };
+		638C15270E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */; };
+		638C15740E31402800C2D46E /* config3.xml in Resources */ = {isa = PBXBuildFile; fileRef = 638C15730E31402800C2D46E /* config3.xml */; };
 		63AD59DA0DF5E07800039DCE /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD59D90DF5E07800039DCE /* SecurityInterface.framework */; };
 		63AD5A2E0DF5E56D00039DCE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD5A2D0DF5E56D00039DCE /* Security.framework */; };
 		63C8B1AA0DFDA0B00048F045 /* Downloader3.py in Resources */ = {isa = PBXBuildFile; fileRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */; };
@@ -103,6 +105,8 @@
 		633E4DB60E071B3D003C170D /* MacLibre3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLibre3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633E4E140E12E9C2003C170D /* Prefs.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Prefs.py; sourceTree = "<group>"; };
 		6381BAA70DF74265005A13F0 /* InstallationGUI.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = InstallationGUI.py; sourceTree = "<group>"; };
+		638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = MacLibreAdminDocument.xcdatamodel; path = ../MacLibreAdmin/MacLibreAdminDocument.xcdatamodel; sourceTree = SOURCE_ROOT; };
+		638C15730E31402800C2D46E /* config3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = config3.xml; path = ../../Documents/config3.xml; sourceTree = SOURCE_ROOT; };
 		63AD59D90DF5E07800039DCE /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = /System/Library/Frameworks/SecurityInterface.framework; sourceTree = "<absolute>"; };
 		63AD5A2D0DF5E56D00039DCE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		63C8B1A90DFDA0B00048F045 /* Downloader3.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Downloader3.py; sourceTree = SOURCE_ROOT; };
@@ -264,6 +268,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				638C15730E31402800C2D46E /* config3.xml */,
+				638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */,
 				63DD44010DEBC2230074CC48 /* MacLibre2 */,
 				77C8C1F70C07829500965286 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -543,6 +549,7 @@
 				63C8B1AA0DFDA0B00048F045 /* Downloader3.py in Resources */,
 				633E4D9C0E071ABA003C170D /* Downloader3.py in Resources */,
 				633E4E150E12E9C2003C170D /* Prefs.py in Resources */,
+				638C15740E31402800C2D46E /* config3.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +562,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				63DD43B90DEBBB520074CC48 /* Makefile in Sources */,
+				638C15270E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
