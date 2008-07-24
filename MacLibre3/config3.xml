@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>59CE55B0-AA38-4258-B7AA-541222840078</UUID>
+        <nextObjectID>104</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>186</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Category</key>
+                        <data>
+		DHIUPCNcIlrNlEVoU62hKvQm18F6VItgO7NEinx5PPk=
+		</data>
+                        <key>Package</key>
+                        <data>
+		BKkjQJzGen/2rSV1ZXnRQaf9ApipUCrxKVy5w6OgglM=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="CATEGORY" id="z102">
+        <attribute name="name" type="string">Create</attribute>
+        <relationship name="packages" type="0/0" destination="PACKAGE" idrefs="z104"></relationship>
+    </object>
+    <object type="CATEGORY" id="z103">
+        <attribute name="name" type="string">Internet</attribute>
+        <relationship name="packages" type="0/0" destination="PACKAGE"></relationship>
+    </object>
+    <object type="PACKAGE" id="z104">
+        <attribute name="version" type="string">2.2.11</attribute>
+        <attribute name="url" type="string">http://heanet.dl.sourceforge.net/sourceforge/gimp-app/Gimp-2.2.11.dmg</attribute>
+        <attribute name="sizeondisk" type="int32">182612811</attribute>
+        <attribute name="sizeofdownload" type="int32">86572645</attribute>
+        <attribute name="name" type="string">Gimp</attribute>
+        <attribute name="logo" type="string">Gimp.png</attribute>
+        <attribute name="homepage" type="string">http://gimp-app.sourceforge.net/</attribute>
+        <attribute name="filename" type="string">Gimp-2.2.11.dmg</attribute>
+        <attribute name="desc" type="string">The GIMP is a software for such tasks as photo retouching, image composition and image authoring.</attribute>
+        <attribute name="osmin" type="string">10.4</attribute>
+        <attribute name="md5sum" type="string">3dea6c8f09bf3234bd9acb6d2bc2cbce</attribute>
+        <relationship name="category" type="1/1" destination="CATEGORY" idrefs="z102"></relationship>
+    </object>
+</database>
