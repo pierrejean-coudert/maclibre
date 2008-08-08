@@ -4,8 +4,8 @@
 <database>
     <databaseInfo>
         <version>134481920</version>
-        <UUID>59CE55B0-AA38-4258-B7AA-541222840078</UUID>
-        <nextObjectID>104</nextObjectID>
+        <UUID>77CB4FE6-B419-4826-8E8D-3174BF24B7BF</UUID>
+        <nextObjectID>106</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -30,26 +30,64 @@
             </plist>
         </metadata>
     </databaseInfo>
-    <object type="CATEGORY" id="z102">
-        <attribute name="name" type="string">Create</attribute>
-        <relationship name="packages" type="0/0" destination="PACKAGE" idrefs="z104"></relationship>
+    <object type="PACKAGE" id="z102">
+        <attribute name="version" type="string">1.3.5d</attribute>
+        <attribute name="url" type="string">http://voxel.dl.sourceforge.net/sourceforge/audacity/audacity-macosx-ub-1.3.5d.dmg</attribute>
+        <attribute name="sizeondisk" type="int32">21022859</attribute>
+        <attribute name="sizeofdownload" type="int32">8537966</attribute>
+        <attribute name="name" type="string">Audacity</attribute>
+        <attribute name="logo" type="string">Audacity.png</attribute>
+        <attribute name="homepage" type="string">http://audacity.sourceforge.net/</attribute>
+        <attribute name="filename" type="string">audacity-macosx-ub-1.3.5d.dmg</attribute>
+        <attribute name="desc" type="string">Audacity is free, open source software for recording and editing sounds</attribute>
+        <attribute name="osmin" type="string">10.4</attribute>
+        <attribute name="md5sum" type="string">64ae9f87ece67c0e4824e4f3b70e7859</attribute>
+        <relationship name="category" type="1/1" destination="CATEGORY" idrefs="z103"></relationship>
     </object>
     <object type="CATEGORY" id="z103">
-        <attribute name="name" type="string">Internet</attribute>
-        <relationship name="packages" type="0/0" destination="PACKAGE"></relationship>
+        <attribute name="name" type="string">Create</attribute>
+        <relationship name="packages" type="0/0" destination="PACKAGE" idrefs="z106 z104 z105 z102"></relationship>
     </object>
     <object type="PACKAGE" id="z104">
-        <attribute name="version" type="string">2.2.11</attribute>
-        <attribute name="url" type="string">http://heanet.dl.sourceforge.net/sourceforge/gimp-app/Gimp-2.2.11.dmg</attribute>
-        <attribute name="sizeondisk" type="int32">182612811</attribute>
-        <attribute name="sizeofdownload" type="int32">86572645</attribute>
+        <attribute name="version" type="string">2.46</attribute>
+        <attribute name="url" type="string">http://download.blender.org/release/Blender2.46/blender-2.46-OSX-10.3-py2.3-powerpc.dmg</attribute>
+        <attribute name="sizeondisk" type="int32">164336221</attribute>
+        <attribute name="sizeofdownload" type="int32">19228261</attribute>
+        <attribute name="name" type="string">Blender</attribute>
+        <attribute name="logo" type="string">Blender.png</attribute>
+        <attribute name="homepage" type="string">http://www.blender.org</attribute>
+        <attribute name="filename" type="string">blender-2.46-OSX-10.3-py2.3-powerpc.dmg</attribute>
+        <attribute name="desc" type="string">Blender is an open source software for 3D modeling, animation, rendering, post-production, interactive creation and playback.</attribute>
+        <attribute name="osmin" type="string">10.3</attribute>
+        <attribute name="md5sum" type="string">e2b33763c1f31425b637584550cb5e0b</attribute>
+        <relationship name="category" type="1/1" destination="CATEGORY" idrefs="z103"></relationship>
+    </object>
+    <object type="PACKAGE" id="z105">
+        <attribute name="version" type="string">2.4.6</attribute>
+        <attribute name="url" type="string">http://internap.dl.sourceforge.net/sourceforge/darwingimp/GIMP-2.4.6-20080601-Leopard-PowerPC.dmg</attribute>
+        <attribute name="sizeondisk" type="int32">179842426</attribute>
+        <attribute name="sizeofdownload" type="int32">71260299</attribute>
         <attribute name="name" type="string">Gimp</attribute>
         <attribute name="logo" type="string">Gimp.png</attribute>
-        <attribute name="homepage" type="string">http://gimp-app.sourceforge.net/</attribute>
-        <attribute name="filename" type="string">Gimp-2.2.11.dmg</attribute>
-        <attribute name="desc" type="string">The GIMP is a software for such tasks as photo retouching, image composition and image authoring.</attribute>
-        <attribute name="osmin" type="string">10.4</attribute>
-        <attribute name="md5sum" type="string">3dea6c8f09bf3234bd9acb6d2bc2cbce</attribute>
-        <relationship name="category" type="1/1" destination="CATEGORY" idrefs="z102"></relationship>
+        <attribute name="homepage" type="string">http://gimp.org/</attribute>
+        <attribute name="filename" type="string">GIMP-2.4.6-20080601-Leopard-PowerPC.dmg</attribute>
+        <attribute name="desc" type="string">GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring.</attribute>
+        <attribute name="osmin" type="string">10.5</attribute>
+        <attribute name="md5sum" type="string">92e22df25af1889c870767c11435fe9e</attribute>
+        <relationship name="category" type="1/1" destination="CATEGORY" idrefs="z103"></relationship>
+    </object>
+    <object type="PACKAGE" id="z106">
+        <attribute name="version" type="string">0.46-2</attribute>
+        <attribute name="url" type="string">http://voxel.dl.sourceforge.net/sourceforge/inkscape/Inkscape-0.46-2.LEOPARD.UNIVERSAL.dmg</attribute>
+        <attribute name="sizeondisk" type="int32">168198568</attribute>
+        <attribute name="sizeofdownload" type="int32">51385751</attribute>
+        <attribute name="name" type="string">Inkscape</attribute>
+        <attribute name="logo" type="string">Inkscape.png</attribute>
+        <attribute name="homepage" type="string">http://www.inkscape.org/</attribute>
+        <attribute name="filename" type="string">Inkscape-0.46-2.LEOPARD.UNIVERSAL.dmg</attribute>
+        <attribute name="desc" type="string">Inkscape is an Open Source vector graphics editor, with capabilities similar to Illustrator, CorelDraw, or Xara X, using the W3C standard Scalable Vector Graphics (SVG) file format.</attribute>
+        <attribute name="osmin" type="string">10.5</attribute>
+        <attribute name="md5sum" type="string">c435aaa2c4baa33dc32b980fe273bf91</attribute>
+        <relationship name="category" type="1/1" destination="CATEGORY" idrefs="z103"></relationship>
     </object>
 </database>

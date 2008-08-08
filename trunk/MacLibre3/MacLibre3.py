@@ -30,6 +30,7 @@ class MacLibre3(NSObject):
     pauseButton=objc.IBOutlet()
     webView=objc.IBOutlet()
     maclibre=MacLibre()
+    packList=objc.IBOutlet()
     
     @objc.IBAction
     def nextPage_(self, sender):
@@ -42,15 +43,27 @@ class MacLibre3(NSObject):
             #down.registerFinishFunction(self,'processPackages')
             #down.start()
             #self.maclibre.xmlMaclibrePath=xmlMacLibre
-            dist=self.processPackages()
+            downloader = Downloader.alloc().init()
+            destination=NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, True)[0]+'/MacLibre3/config3.xml'
+            print destination
+            downloader.setup( 'http://maclibre.googlecode.com/svn/trunk/MacLibre3/config3.xml' , destination , None, None, maclibre3=self )
+            
+            #self.progressionPage.gaugeDesc.SetLabel('                                                                                      ')
+            downloader.registerFinishFunction(self,'processPackages')
+            downloader.start()
+            #return False      
+            #downloader.join()
+                
+            #dist=self.processPackages()
             #dist=parse(downloadXML(defaultUrl))
-            self.packList.dataSource().load_(dist, None)
-            self.tabs.selectNextTabViewItem_(1)
-            self.previousButton.setEnabled_(True)      
+            
+            #self.packList.dataSource().load_(dist, None)
+            #self.tabs.selectNextTabViewItem_(1)
+            #self.previousButton.setEnabled_(True)      
         else:
             if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 1:
-                self.packConf.setDataSource_(self.packList.dataSource())
-                self.packConf.setDelegate_(self.packList.dataSource())
+                self.packConf.setDataSource_(self.packList)
+                self.packConf.setDelegate_(self.packList)
                 self.auth.setDelegate_(self)
                 self.auth.setString_("com.maclibre.auth")
                 self.auth.setAutoupdate_(True)
@@ -58,7 +71,7 @@ class MacLibre3(NSObject):
                 #self.nextButton.setEnabled_(self.auth.updateStatus_(self))
             self.tabs.selectNextTabViewItem_(1)
             if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 3:
-                self.installation.setSelected(self.packList.dataSource().dist, self.packList.dataSource().inst)
+                self.installation.setSelected(self.packList.dist, self.packList.inst)
                 self.installer=Installer(self.installation, self)
                 self.installation.setup(self.installation, self.maclibre, self.installer)
                 self.installer.install(getattr(self.tabs,'selectNextTabViewItem_'))
@@ -101,7 +114,8 @@ class MacLibre3(NSObject):
     
     def processPackages(self):
         print "processPackages"
-        url=NSURL.fileURLWithPath_("/Users/ezra/Documents/config3.xml")
+        url=NSURL.fileURLWithPath_(NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, True)[0]+'/MacLibre3/config3.xml')
+        #url=NSURL.fileURLWithPath_("/Users/ezra/Desktop/config3.xml")
         bundles=NSArray.arrayWithObject_(NSBundle.mainBundle())
         model=NSManagedObjectModel.mergedModelFromBundles_(bundles)
         coordinator=NSPersistentStoreCoordinator.alloc().initWithManagedObjectModel_(model)
@@ -126,15 +140,15 @@ class MacLibre3(NSObject):
                     dist.categories[-1].packages.append(Package(package.valueForKey_('name'),
                     package.valueForKey_('version'),True,'stable',package.valueForKey_('desc'),package.valueForKey_('homepage'),'',
                     [Installation(package.valueForKey_('sizeOnDisk'),package.valueForKey_('OSMin'),
-                    file=File(package.valueForKey_('fileName'),package.valueForKey_('sizeOnDisk'),md5=package.valueForKey_('MD5Sum'),urls=[package.valueForKey_('url')]))]
+                    file=File(package.valueForKey_('fileName'),package.valueForKey_('sizeOfDownload'),md5=package.valueForKey_('MD5Sum'),urls=[package.valueForKey_('url')]))]
                     ,package.valueForKey_('logo')))
         for category in dist.categories:
             print category
             print str(category.packages)
-        return dist
-        print packages
-        print packages[0]
-        print packages[0].valueForKey_('name')
+        
+        self.packList.load_(dist, None)
+        self.tabs.selectNextTabViewItem_(1)
+        self.previousButton.setEnabled_(True)  
         #parserWeb = Parser(self.maclibre.xmlMaclibrePath)
         #parserUser = Parser(self.maclibre.xmlUserPath)
         #self.packList.dataSource().load_(parserWeb.parse(), parserUser.parse())

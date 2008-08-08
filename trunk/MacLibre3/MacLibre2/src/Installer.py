@@ -62,7 +62,7 @@ class Installer:
                      'CANT_INSTALL_DOTPKG' : "Can't install this .pkg program. (permission problem) ",
                      'NEWER_EXISTS': "Newer Software already exists on your computer" }
 
-        self.todoKnown = {'INSTALL':'Installing ','REINSTALL':'Re-installing ','UPDATE':'Updating '}
+        self.todoKnown = {'Install':'Installing ','Reinstall':'Re-installing ','Update':'Updating '}
         self.reason = '' # reason why don't installing a package
         self.maclibre3=maclibre3
 
@@ -489,7 +489,7 @@ class Installer:
                 self.reason = 'UNKNOWN_TODO' 
                 return False
             print str(self.currentPkg)
-            record=InstalledPackage(self.currentPkg.name,self.currentPkg.installations[0].version,installedLocation)
+            record=InstalledPackage(self.currentPkg.name,self.currentPkg.version,installedLocation)
             record.register()
             return True
 
