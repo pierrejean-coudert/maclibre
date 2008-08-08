@@ -4,7 +4,7 @@
 #
 #  Created by Ezra on 6/25/08.
 #  
-#  The classes and functions in this file ahndle the storing and retreiving information
+#  The classes and functions in this file handle storing and retrieving information
 #  from the Mac OS X preferences file stored in ~/Library/Preferences/
 #
 
@@ -35,6 +35,7 @@ class InstalledPackage:
         installed=defaults.objectForKey_('installedPackages')
         print "got installed"
         print str(installed)
+        print self.version
         if installed:
             installed=[package for package in installed if package[0] != self.name]
             installed.append((self.name, self.version, self.location))
@@ -62,9 +63,9 @@ class Prefs:
         current = [package for package in self.installed if package[0] == name]
         if todo == '':
             if current:
-                return 'UPDATE'
+                return 'Update'
             else:
-                return 'INSTALL'
+                return 'Install'
         else:
             return ''
             

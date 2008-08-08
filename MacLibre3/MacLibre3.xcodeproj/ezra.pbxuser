@@ -1,5 +1,13 @@
 // !$*UTF8*$!
 {
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1186, 609}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 100}";
+			sepNavWindowFrame = "{{15, 14}, {1596, 1159}}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 633E4DB70E071B3D003C170D /* MacLibre3 */;
@@ -18,7 +26,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					300,
-					201,
+					898,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXErrorsWarningsDataSource_TypeID,
@@ -124,80 +132,16 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 238621647;
-			PBXWorkspaceStateSaveDate = 238621647;
+			PBXPerProjectTemplateStateSaveDate = 239831609;
+			PBXWorkspaceStateSaveDate = 239831609;
 		};
 		perUserProjectItems = {
-			632ADC8D0E3913DF003C600B /* XDModelBookmark */ = 632ADC8D0E3913DF003C600B /* XDModelBookmark */;
-			632ADC900E3913DF003C600B /* PBXTextBookmark */ = 632ADC900E3913DF003C600B /* PBXTextBookmark */;
-			632ADC910E3913DF003C600B /* PBXTextBookmark */ = 632ADC910E3913DF003C600B /* PBXTextBookmark */;
-			632ADC920E3913DF003C600B /* XDModelBookmark */ = 632ADC920E3913DF003C600B /* XDModelBookmark */;
-			632ADC930E3913DF003C600B /* PBXTextBookmark */ = 632ADC930E3913DF003C600B /* PBXTextBookmark */;
-			632ADC940E3913DF003C600B /* PBXTextBookmark */ = 632ADC940E3913DF003C600B /* PBXTextBookmark */;
-			632ADC950E3913DF003C600B /* PBXTextBookmark */ = 632ADC950E3913DF003C600B /* PBXTextBookmark */;
-			632ADC960E3913DF003C600B /* PBXTextBookmark */ = 632ADC960E3913DF003C600B /* PBXTextBookmark */;
-			632ADC970E3913DF003C600B /* PBXTextBookmark */ = 632ADC970E3913DF003C600B /* PBXTextBookmark */;
-			632ADC980E3913DF003C600B /* PBXTextBookmark */ = 632ADC980E3913DF003C600B /* PBXTextBookmark */;
-			632ADC990E3913DF003C600B /* PBXTextBookmark */ = 632ADC990E3913DF003C600B /* PBXTextBookmark */;
-			632ADC9A0E3913DF003C600B /* PBXTextBookmark */ = 632ADC9A0E3913DF003C600B /* PBXTextBookmark */;
-			632ADC9B0E3913DF003C600B /* PBXTextBookmark */ = 632ADC9B0E3913DF003C600B /* PBXTextBookmark */;
-			632ADCBB0E39148B003C600B /* PBXTextBookmark */ = 632ADCBB0E39148B003C600B /* PBXTextBookmark */;
-			632ADCBC0E39148B003C600B /* PBXTextBookmark */ = 632ADCBC0E39148B003C600B /* PBXTextBookmark */;
-			632ADCBD0E39148B003C600B /* PBXTextBookmark */ = 632ADCBD0E39148B003C600B /* PBXTextBookmark */;
-			632ADCBE0E39148B003C600B /* PBXTextBookmark */ = 632ADCBE0E39148B003C600B /* PBXTextBookmark */;
-			632ADCBF0E39148B003C600B /* PBXTextBookmark */ = 632ADCBF0E39148B003C600B /* PBXTextBookmark */;
-			632ADCC00E39148B003C600B /* PBXTextBookmark */ = 632ADCC00E39148B003C600B /* PBXTextBookmark */;
-			632ADCC10E39148B003C600B /* PBXTextBookmark */ = 632ADCC10E39148B003C600B /* PBXTextBookmark */;
-			632ADCC20E39148B003C600B /* PBXTextBookmark */ = 632ADCC20E39148B003C600B /* PBXTextBookmark */;
-			632ADCC30E39148B003C600B /* PBXTextBookmark */ = 632ADCC30E39148B003C600B /* PBXTextBookmark */;
-			632ADCC40E39148B003C600B /* PBXTextBookmark */ = 632ADCC40E39148B003C600B /* PBXTextBookmark */;
-			632ADCC50E39148B003C600B /* PBXTextBookmark */ = 632ADCC50E39148B003C600B /* PBXTextBookmark */;
-			632ADCC60E39148B003C600B /* PBXTextBookmark */ = 632ADCC60E39148B003C600B /* PBXTextBookmark */;
-			632ADCD20E391504003C600B /* PBXTextBookmark */ = 632ADCD20E391504003C600B /* PBXTextBookmark */;
-			632ADCD30E391504003C600B /* PBXTextBookmark */ = 632ADCD30E391504003C600B /* PBXTextBookmark */;
-			632ADCD40E391504003C600B /* PBXTextBookmark */ = 632ADCD40E391504003C600B /* PBXTextBookmark */;
-			632ADCD50E391504003C600B /* PBXTextBookmark */ = 632ADCD50E391504003C600B /* PBXTextBookmark */;
-			632ADCD60E391504003C600B /* PBXTextBookmark */ = 632ADCD60E391504003C600B /* PBXTextBookmark */;
-			632ADCD70E391504003C600B /* PBXTextBookmark */ = 632ADCD70E391504003C600B /* PBXTextBookmark */;
-			632ADCD80E391504003C600B /* PBXTextBookmark */ = 632ADCD80E391504003C600B /* PBXTextBookmark */;
-			632ADCD90E391504003C600B /* PBXTextBookmark */ = 632ADCD90E391504003C600B /* PBXTextBookmark */;
-			632ADCDA0E391504003C600B /* PBXTextBookmark */ = 632ADCDA0E391504003C600B /* PBXTextBookmark */;
-			632ADCDB0E391504003C600B /* PBXTextBookmark */ = 632ADCDB0E391504003C600B /* PBXTextBookmark */;
-			632ADCDC0E391504003C600B /* PBXTextBookmark */ = 632ADCDC0E391504003C600B /* PBXTextBookmark */;
-			632ADCDD0E391504003C600B /* PBXTextBookmark */ = 632ADCDD0E391504003C600B /* PBXTextBookmark */;
-			632ADD630E391FBD003C600B /* PBXTextBookmark */ = 632ADD630E391FBD003C600B /* PBXTextBookmark */;
-			632ADD640E391FBD003C600B /* PBXTextBookmark */ = 632ADD640E391FBD003C600B /* PBXTextBookmark */;
-			632ADD650E391FBD003C600B /* PBXTextBookmark */ = 632ADD650E391FBD003C600B /* PBXTextBookmark */;
-			632ADD660E391FBD003C600B /* PBXTextBookmark */ = 632ADD660E391FBD003C600B /* PBXTextBookmark */;
-			632ADD670E391FBD003C600B /* PBXTextBookmark */ = 632ADD670E391FBD003C600B /* PBXTextBookmark */;
-			632ADD680E391FBD003C600B /* PBXTextBookmark */ = 632ADD680E391FBD003C600B /* PBXTextBookmark */;
-			632ADD690E391FBD003C600B /* PBXTextBookmark */ = 632ADD690E391FBD003C600B /* PBXTextBookmark */;
-			632ADD6A0E391FBD003C600B /* PBXTextBookmark */ = 632ADD6A0E391FBD003C600B /* PBXTextBookmark */;
-			632ADD6B0E391FBD003C600B /* PBXTextBookmark */ = 632ADD6B0E391FBD003C600B /* PBXTextBookmark */;
-			632ADD6C0E391FBD003C600B /* PBXTextBookmark */ = 632ADD6C0E391FBD003C600B /* PBXTextBookmark */;
-			632ADD6D0E391FBD003C600B /* PBXTextBookmark */ = 632ADD6D0E391FBD003C600B /* PBXTextBookmark */;
-			632ADD6E0E391FBD003C600B /* PBXTextBookmark */ = 632ADD6E0E391FBD003C600B /* PBXTextBookmark */;
-			632ADD6F0E391FBD003C600B /* PBXTextBookmark */ = 632ADD6F0E391FBD003C600B /* PBXTextBookmark */;
-			632ADD700E391FBD003C600B /* PBXTextBookmark */ = 632ADD700E391FBD003C600B /* PBXTextBookmark */;
-			632ADD710E391FBD003C600B /* PBXTextBookmark */ = 632ADD710E391FBD003C600B /* PBXTextBookmark */;
-			632ADD720E391FBD003C600B /* PBXTextBookmark */ = 632ADD720E391FBD003C600B /* PBXTextBookmark */;
-			632ADD730E391FBD003C600B /* PBXTextBookmark */ = 632ADD730E391FBD003C600B /* PBXTextBookmark */;
-			632ADD740E391FBD003C600B /* PBXTextBookmark */ = 632ADD740E391FBD003C600B /* PBXTextBookmark */;
-			632ADD790E392038003C600B /* PBXTextBookmark */ = 632ADD790E392038003C600B /* PBXTextBookmark */;
-			632ADD7A0E392038003C600B /* PBXBookmark */ = 632ADD7A0E392038003C600B /* PBXBookmark */;
-			632ADD7B0E392038003C600B /* PBXTextBookmark */ = 632ADD7B0E392038003C600B /* PBXTextBookmark */;
-			632ADD7C0E392038003C600B /* XDModelBookmark */ = 632ADD7C0E392038003C600B /* XDModelBookmark */;
-			632ADD7D0E392038003C600B /* PBXTextBookmark */ = 632ADD7D0E392038003C600B /* PBXTextBookmark */;
-			632ADD7E0E392038003C600B /* PBXTextBookmark */ = 632ADD7E0E392038003C600B /* PBXTextBookmark */;
-			632ADD7F0E392038003C600B /* PBXTextBookmark */ = 632ADD7F0E392038003C600B /* PBXTextBookmark */;
-			632ADD800E392038003C600B /* PBXTextBookmark */ = 632ADD800E392038003C600B /* PBXTextBookmark */;
-			632ADD810E392038003C600B /* PBXTextBookmark */ = 632ADD810E392038003C600B /* PBXTextBookmark */;
-			632ADD820E392038003C600B /* PBXTextBookmark */ = 632ADD820E392038003C600B /* PBXTextBookmark */;
-			632ADD830E392038003C600B /* PBXTextBookmark */ = 632ADD830E392038003C600B /* PBXTextBookmark */;
-			632ADD840E392038003C600B /* PBXTextBookmark */ = 632ADD840E392038003C600B /* PBXTextBookmark */;
-			632ADD850E392038003C600B /* PBXTextBookmark */ = 632ADD850E392038003C600B /* PBXTextBookmark */;
-			632ADD860E392038003C600B /* PBXTextBookmark */ = 632ADD860E392038003C600B /* PBXTextBookmark */;
-			632ADD870E392038003C600B /* PBXTextBookmark */ = 632ADD870E392038003C600B /* PBXTextBookmark */;
+			632ADD630E391FBD003C600B = 632ADD630E391FBD003C600B /* PBXTextBookmark */;
+			632ADD660E391FBD003C600B = 632ADD660E391FBD003C600B /* PBXTextBookmark */;
+			632ADD8A0E392076003C600B = 632ADD8A0E392076003C600B /* PBXTextBookmark */;
+			632ADDC20E392230003C600B = 632ADDC20E392230003C600B /* PBXTextBookmark */;
+			632ADDCA0E392230003C600B = 632ADDCA0E392230003C600B /* PBXTextBookmark */;
+			632ADDEA0E39232E003C600B = 632ADDEA0E39232E003C600B /* PBXTextBookmark */;
 			633E4DA50E071B38003C170D = 633E4DA50E071B38003C170D /* PBXTextBookmark */;
 			633E4DA60E071B38003C170D = 633E4DA60E071B38003C170D /* PBXTextBookmark */;
 			633E4DA70E071B38003C170D = 633E4DA70E071B38003C170D /* PBXTextBookmark */;
@@ -205,10 +149,7 @@
 			633E4DAA0E071B38003C170D = 633E4DAA0E071B38003C170D /* PBXTextBookmark */;
 			633E4DAB0E071B38003C170D = 633E4DAB0E071B38003C170D /* PBXTextBookmark */;
 			633E4DAC0E071B38003C170D = 633E4DAC0E071B38003C170D /* PBXTextBookmark */;
-			633E4E350E143F4F003C170D = 633E4E350E143F4F003C170D /* PBXTextBookmark */;
-			633E4E370E143F4F003C170D = 633E4E370E143F4F003C170D /* PBXTextBookmark */;
 			633E4E390E143F4F003C170D = 633E4E390E143F4F003C170D /* PBXTextBookmark */;
-			633E4E3D0E143F4F003C170D = 633E4E3D0E143F4F003C170D /* PBXTextBookmark */;
 			633E4E3E0E143F4F003C170D = 633E4E3E0E143F4F003C170D /* PBXTextBookmark */;
 			633E4E3F0E143F4F003C170D = 633E4E3F0E143F4F003C170D /* PBXTextBookmark */;
 			633E4E440E143F4F003C170D = 633E4E440E143F4F003C170D /* PBXTextBookmark */;
@@ -223,42 +164,182 @@
 			633E4E550E143F4F003C170D = 633E4E550E143F4F003C170D /* PBXTextBookmark */;
 			633E4FF90E159811003C170D = 633E4FF90E159811003C170D /* PBXTextBookmark */;
 			633E50580E1973C5003C170D = 633E50580E1973C5003C170D /* PlistBookmark */;
-			633E50590E1973C5003C170D = 633E50590E1973C5003C170D /* PBXTextBookmark */;
 			633E505A0E1973C5003C170D = 633E505A0E1973C5003C170D /* PlistBookmark */;
-			633E50E10E197F03003C170D = 633E50E10E197F03003C170D /* PBXTextBookmark */;
-			633E51920E1ACF42003C170D = 633E51920E1ACF42003C170D /* PBXTextBookmark */;
 			633E52010E1C217B003C170D = 633E52010E1C217B003C170D /* PBXTextBookmark */;
+			6341A6020E4AAE250069238D = 6341A6020E4AAE250069238D /* PBXTextBookmark */;
+			6341A6030E4AAE250069238D = 6341A6030E4AAE250069238D /* PBXBookmark */;
+			6341A6040E4AAE250069238D = 6341A6040E4AAE250069238D /* PBXTextBookmark */;
+			6341A6050E4AAE250069238D = 6341A6050E4AAE250069238D /* PBXTextBookmark */;
+			6341A6080E4AAE250069238D = 6341A6080E4AAE250069238D /* PBXTextBookmark */;
+			6341A6090E4AAE250069238D = 6341A6090E4AAE250069238D /* PBXTextBookmark */;
+			6341A60A0E4AAE250069238D = 6341A60A0E4AAE250069238D /* PBXTextBookmark */;
+			6341A60B0E4AAE250069238D = 6341A60B0E4AAE250069238D /* PBXTextBookmark */;
+			6341A60C0E4AAE250069238D = 6341A60C0E4AAE250069238D /* PBXTextBookmark */;
+			6341A60D0E4AAE250069238D = 6341A60D0E4AAE250069238D /* PlistBookmark */;
+			6341A60E0E4AAE250069238D = 6341A60E0E4AAE250069238D /* PBXTextBookmark */;
+			6341A60F0E4AAE250069238D = 6341A60F0E4AAE250069238D /* PBXTextBookmark */;
+			6341A6100E4AAE250069238D = 6341A6100E4AAE250069238D /* PBXTextBookmark */;
+			6341A6110E4AAE250069238D = 6341A6110E4AAE250069238D /* PBXTextBookmark */;
+			6341A6120E4AAE250069238D = 6341A6120E4AAE250069238D /* PBXTextBookmark */;
+			6341A6130E4AAE250069238D = 6341A6130E4AAE250069238D /* PBXTextBookmark */;
+			634E9B870E3A736400334FE1 = 634E9B870E3A736400334FE1 /* PBXTextBookmark */;
+			634E9B880E3A736400334FE1 = 634E9B880E3A736400334FE1 /* PBXTextBookmark */;
+			634E9B890E3A736400334FE1 = 634E9B890E3A736400334FE1 /* PBXTextBookmark */;
+			634E9B8A0E3A736400334FE1 = 634E9B8A0E3A736400334FE1 /* PBXTextBookmark */;
+			634E9B8C0E3A736400334FE1 = 634E9B8C0E3A736400334FE1 /* PBXTextBookmark */;
+			634E9BBE0E3A73CE00334FE1 = 634E9BBE0E3A73CE00334FE1 /* PBXTextBookmark */;
 			6360DAB00E26AA2C000B40B5 = 6360DAB00E26AA2C000B40B5 /* PBXTextBookmark */;
 			6360DAB20E26AA2C000B40B5 = 6360DAB20E26AA2C000B40B5 /* PBXTextBookmark */;
-			637106710E3834220058FF2F = 637106710E3834220058FF2F /* XDModelBookmark */;
-			637106740E3834220058FF2F = 637106740E3834220058FF2F /* PBXTextBookmark */;
-			637106750E3834220058FF2F = 637106750E3834220058FF2F /* PBXTextBookmark */;
-			637106760E3834220058FF2F = 637106760E3834220058FF2F /* XDModelBookmark */;
-			637106770E3834220058FF2F = 637106770E3834220058FF2F /* PBXTextBookmark */;
-			637106780E3834220058FF2F = 637106780E3834220058FF2F /* PBXTextBookmark */;
-			637106790E3834220058FF2F = 637106790E3834220058FF2F /* PBXTextBookmark */;
-			6371067A0E3834220058FF2F = 6371067A0E3834220058FF2F /* PBXTextBookmark */;
-			6371067B0E3834220058FF2F = 6371067B0E3834220058FF2F /* PBXTextBookmark */;
-			6371067C0E3834220058FF2F = 6371067C0E3834220058FF2F /* PBXTextBookmark */;
-			6371067D0E3834220058FF2F = 6371067D0E3834220058FF2F /* PBXTextBookmark */;
-			6371067E0E3834220058FF2F = 6371067E0E3834220058FF2F /* PBXTextBookmark */;
-			6371067F0E3834220058FF2F = 6371067F0E3834220058FF2F /* PBXTextBookmark */;
-			638C15410E313F3500C2D46E = 638C15410E313F3500C2D46E /* PBXTextBookmark */;
-			638C15440E313F3500C2D46E = 638C15440E313F3500C2D46E /* PBXTextBookmark */;
-			638C15E80E32E16700C2D46E = 638C15E80E32E16700C2D46E /* PBXTextBookmark */;
-			63CCDD510E36D81900A72E69 = 63CCDD510E36D81900A72E69 /* XDModelBookmark */;
-			63CCDD520E36D81900A72E69 = 63CCDD520E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD530E36D81900A72E69 = 63CCDD530E36D81900A72E69 /* XDModelBookmark */;
-			63CCDD540E36D81900A72E69 = 63CCDD540E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD550E36D81900A72E69 = 63CCDD550E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD560E36D81900A72E69 = 63CCDD560E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD570E36D81900A72E69 = 63CCDD570E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD580E36D81900A72E69 = 63CCDD580E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD590E36D81900A72E69 = 63CCDD590E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD5A0E36D81900A72E69 = 63CCDD5A0E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD5B0E36D81900A72E69 = 63CCDD5B0E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD5C0E36D81900A72E69 = 63CCDD5C0E36D81900A72E69 /* PBXTextBookmark */;
-			63CCDD5D0E36D81900A72E69 = 63CCDD5D0E36D81900A72E69 /* PBXTextBookmark */;
+			63961CD70E43B347004BAEDF = 63961CD70E43B347004BAEDF /* PBXTextBookmark */;
+			639620DE0E495B1B004BAEDF = 639620DE0E495B1B004BAEDF /* PBXTextBookmark */;
+			639620DF0E495B1C004BAEDF = 639620DF0E495B1C004BAEDF /* PBXTextBookmark */;
+			639620E00E495B1C004BAEDF = 639620E00E495B1C004BAEDF /* PBXTextBookmark */;
+			639620E10E495B1C004BAEDF = 639620E10E495B1C004BAEDF /* PBXTextBookmark */;
+			639620E20E495B1C004BAEDF = 639620E20E495B1C004BAEDF /* PBXTextBookmark */;
+			639620E30E495B1C004BAEDF = 639620E30E495B1C004BAEDF /* PlistBookmark */;
+			639620E40E495B1C004BAEDF = 639620E40E495B1C004BAEDF /* PBXTextBookmark */;
+			639620E50E495B1C004BAEDF = 639620E50E495B1C004BAEDF /* PBXTextBookmark */;
+			639620E60E495B1C004BAEDF = 639620E60E495B1C004BAEDF /* PBXTextBookmark */;
+			639620E70E495B1C004BAEDF = 639620E70E495B1C004BAEDF /* PBXTextBookmark */;
+			639620E80E495B1C004BAEDF = 639620E80E495B1C004BAEDF /* PBXTextBookmark */;
+			639620E90E495B1C004BAEDF = 639620E90E495B1C004BAEDF /* PBXTextBookmark */;
+			639AB9050E4B8A49006A03DA /* PBXTextBookmark */ = 639AB9050E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB9080E4B8A49006A03DA /* PBXTextBookmark */ = 639AB9080E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB9090E4B8A49006A03DA /* PBXTextBookmark */ = 639AB9090E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB90A0E4B8A49006A03DA /* PBXTextBookmark */ = 639AB90A0E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB90B0E4B8A49006A03DA /* PBXTextBookmark */ = 639AB90B0E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB90C0E4B8A49006A03DA /* PBXTextBookmark */ = 639AB90C0E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB90D0E4B8A49006A03DA /* PlistBookmark */ = 639AB90D0E4B8A49006A03DA /* PlistBookmark */;
+			639AB90E0E4B8A49006A03DA /* PBXTextBookmark */ = 639AB90E0E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB90F0E4B8A49006A03DA /* PBXTextBookmark */ = 639AB90F0E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB9100E4B8A49006A03DA /* PBXTextBookmark */ = 639AB9100E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB9110E4B8A49006A03DA /* PBXTextBookmark */ = 639AB9110E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB9120E4B8A49006A03DA /* PBXTextBookmark */ = 639AB9120E4B8A49006A03DA /* PBXTextBookmark */;
+			639AB9130E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB9130E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB9140E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB9140E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB9150E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB9150E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB9160E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB9160E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB9170E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB9170E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB9180E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB9180E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB9190E4B8A8E006A03DA /* PlistBookmark */ = 639AB9190E4B8A8E006A03DA /* PlistBookmark */;
+			639AB91A0E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB91A0E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB91B0E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB91B0E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB91C0E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB91C0E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB91D0E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB91D0E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB91E0E4B8A8E006A03DA /* PBXTextBookmark */ = 639AB91E0E4B8A8E006A03DA /* PBXTextBookmark */;
+			639AB9270E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB9270E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB9280E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB9280E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB9290E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB9290E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB92A0E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB92A0E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB92B0E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB92B0E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB92C0E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB92C0E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB92D0E4B9AE0006A03DA /* PlistBookmark */ = 639AB92D0E4B9AE0006A03DA /* PlistBookmark */;
+			639AB92E0E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB92E0E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB92F0E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB92F0E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB9300E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB9300E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB9310E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB9310E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB9320E4B9AE0006A03DA /* PBXTextBookmark */ = 639AB9320E4B9AE0006A03DA /* PBXTextBookmark */;
+			639AB93D0E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB93D0E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB93E0E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB93E0E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB93F0E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB93F0E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB9400E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB9400E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB9410E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB9410E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB9420E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB9420E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB9430E4B9B6C006A03DA /* PlistBookmark */ = 639AB9430E4B9B6C006A03DA /* PlistBookmark */;
+			639AB9440E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB9440E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB9450E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB9450E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB9460E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB9460E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB9470E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB9470E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB9480E4B9B6C006A03DA /* PBXTextBookmark */ = 639AB9480E4B9B6C006A03DA /* PBXTextBookmark */;
+			639AB94D0E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB94D0E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB94E0E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB94E0E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB94F0E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB94F0E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB9500E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB9500E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB9510E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB9510E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB9520E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB9520E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB9530E4B9BD1006A03DA /* PlistBookmark */ = 639AB9530E4B9BD1006A03DA /* PlistBookmark */;
+			639AB9540E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB9540E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB9550E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB9550E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB9560E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB9560E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB9570E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB9570E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB9580E4B9BD1006A03DA /* PBXTextBookmark */ = 639AB9580E4B9BD1006A03DA /* PBXTextBookmark */;
+			639AB9590E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB9590E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB95A0E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB95A0E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB95B0E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB95B0E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB95C0E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB95C0E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB95D0E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB95D0E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB95E0E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB95E0E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB95F0E4B9BDA006A03DA /* PlistBookmark */ = 639AB95F0E4B9BDA006A03DA /* PlistBookmark */;
+			639AB9600E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB9600E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB9610E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB9610E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB9620E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB9620E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB9630E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB9630E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB9640E4B9BDA006A03DA /* PBXTextBookmark */ = 639AB9640E4B9BDA006A03DA /* PBXTextBookmark */;
+			639AB9660E4B9C96006A03DA /* PBXTextBookmark */ = 639AB9660E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB9670E4B9C96006A03DA /* PBXTextBookmark */ = 639AB9670E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB9680E4B9C96006A03DA /* PBXTextBookmark */ = 639AB9680E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB9690E4B9C96006A03DA /* PBXTextBookmark */ = 639AB9690E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB96A0E4B9C96006A03DA /* PBXTextBookmark */ = 639AB96A0E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB96B0E4B9C96006A03DA /* PBXTextBookmark */ = 639AB96B0E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB96C0E4B9C96006A03DA /* PlistBookmark */ = 639AB96C0E4B9C96006A03DA /* PlistBookmark */;
+			639AB96D0E4B9C96006A03DA /* PBXTextBookmark */ = 639AB96D0E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB96E0E4B9C96006A03DA /* PBXTextBookmark */ = 639AB96E0E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB96F0E4B9C96006A03DA /* PBXTextBookmark */ = 639AB96F0E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB9700E4B9C96006A03DA /* PBXTextBookmark */ = 639AB9700E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB9710E4B9C96006A03DA /* PBXTextBookmark */ = 639AB9710E4B9C96006A03DA /* PBXTextBookmark */;
+			639AB97B0E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB97B0E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB97C0E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB97C0E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB97D0E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB97D0E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB97E0E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB97E0E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB97F0E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB97F0E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB9800E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB9800E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB9810E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB9810E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB9820E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB9820E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB9830E4B9ED3006A03DA /* PlistBookmark */ = 639AB9830E4B9ED3006A03DA /* PlistBookmark */;
+			639AB9840E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB9840E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB9850E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB9850E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB9860E4B9ED3006A03DA /* PBXTextBookmark */ = 639AB9860E4B9ED3006A03DA /* PBXTextBookmark */;
+			639AB98A0E4B9F16006A03DA /* PBXTextBookmark */ = 639AB98A0E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB98B0E4B9F16006A03DA /* PBXTextBookmark */ = 639AB98B0E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB98C0E4B9F16006A03DA /* PBXTextBookmark */ = 639AB98C0E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB98D0E4B9F16006A03DA /* PBXTextBookmark */ = 639AB98D0E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB98E0E4B9F16006A03DA /* PBXTextBookmark */ = 639AB98E0E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB98F0E4B9F16006A03DA /* PBXTextBookmark */ = 639AB98F0E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB9900E4B9F16006A03DA /* PBXTextBookmark */ = 639AB9900E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB9910E4B9F16006A03DA /* PBXTextBookmark */ = 639AB9910E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB9920E4B9F16006A03DA /* PlistBookmark */ = 639AB9920E4B9F16006A03DA /* PlistBookmark */;
+			639AB9930E4B9F16006A03DA /* PBXTextBookmark */ = 639AB9930E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB9940E4B9F16006A03DA /* PBXTextBookmark */ = 639AB9940E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB9950E4B9F16006A03DA /* PBXTextBookmark */ = 639AB9950E4B9F16006A03DA /* PBXTextBookmark */;
+			639AB99A0E4B9F6B006A03DA /* PBXBookmark */ = 639AB99A0E4B9F6B006A03DA /* PBXBookmark */;
+			639AB9A30E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9A30E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9A40E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9A40E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9A50E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9A50E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9A80E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9A80E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9A90E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9A90E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9AA0E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9AA0E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9AB0E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9AB0E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9AC0E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9AC0E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9AD0E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9AD0E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9AE0E4BA2FB006A03DA /* PlistBookmark */ = 639AB9AE0E4BA2FB006A03DA /* PlistBookmark */;
+			639AB9AF0E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9AF0E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9B00E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9B00E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9B10E4BA2FB006A03DA /* PBXTextBookmark */ = 639AB9B10E4BA2FB006A03DA /* PBXTextBookmark */;
+			639AB9BB0E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9BB0E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9BC0E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9BC0E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9BD0E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9BD0E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9BE0E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9BE0E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9BF0E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9BF0E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9C00E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9C00E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9C10E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9C10E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9C20E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9C20E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9C30E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9C30E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9C40E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9C40E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9C50E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9C50E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9C60E4CF5A9006A03DA /* PlistBookmark */ = 639AB9C60E4CF5A9006A03DA /* PlistBookmark */;
+			639AB9C70E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9C70E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9C80E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9C80E4CF5A9006A03DA /* PBXTextBookmark */;
+			639AB9C90E4CF5A9006A03DA /* PBXTextBookmark */ = 639AB9C90E4CF5A9006A03DA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 63DD433B0DEBAA930074CC48 /* Source Control */;
 		userBuildSettings = {
@@ -279,682 +360,6 @@
 			sepNavVisRange = "{0, 149}";
 		};
 	};
-	632ADC8D0E3913DF003C600B /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-		uiCtxt = {
-			UIContextForDetailArea = {
-				_indexOfSelectedPane = 0;
-				_indexOfSelectedView = 1;
-			};
-			UIContextForEntityArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnns = (
-					"ET Entity",
-					"ET Abstract",
-					"ET Class",
-				);
-				chosenTableColumnns_sortDirections = (
-					YES,
-				);
-				chosenTableColumnns_sortKeys = (
-					name,
-				);
-				chosenTableColumnns_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidths = (
-					103.000000,
-					22.000000,
-					114.080078,
-				);
-			};
-			UIContextForLayoutManager = {
-				detailSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {813, 218}}",
-						"{{818, 0}, {427, 218}}",
-					);
-				};
-				diagramSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {1245, 220}}",
-						"{{0, 225}, {1245, 80}}",
-					);
-				};
-				tableSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {264, 218}}",
-						"{{269, 0}, {542, 218}}",
-					);
-				};
-			};
-			UIContextForPropertyArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnnFRTs = (
-					"FT Fetch Request",
-					"FT Predicate",
-				);
-				chosenTableColumnnFRTs_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnFRTs_sortKeys = (
-					name,
-				);
-				chosenTableColumnnFRTs_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsAT = (
-					"AT Attribute",
-					"AT Type",
-				);
-				chosenTableColumnnsAT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsAT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsAT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsFPT = (
-					"FP FetchedProperty",
-					"FP Destination",
-					"FP Predicate",
-				);
-				chosenTableColumnnsFPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsFPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsFPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsPT = (
-					"PT Property",
-					"PT Kind",
-					"PT SharedKeyOne",
-				);
-				chosenTableColumnnsPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsRT = (
-					"RT Relationship",
-					"RT Destination",
-				);
-				chosenTableColumnnsRT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsRT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsRT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidthsAT = (
-					128.000000,
-					64.000000,
-				);
-				chosenTableWidthsFPT = (
-					128.000000,
-					64.000000,
-					144.764160,
-				);
-				chosenTableWidthsFRT = (
-					128.000000,
-					249.764160,
-				);
-				chosenTableWidthsPT = (
-					128.000000,
-					108.110840,
-					279.570801,
-				);
-				chosenTableWidthsRT = (
-					128.000000,
-					64.000000,
-				);
-			};
-			"xdesign model browser state key - shown/hidden" = 1;
-			"xdesign model diagram view visible rect key" = "{{0, 177}, {1230, 65}}";
-			"xdesign model selected entities key" = (
-			);
-			"xdesign model selected properties key" = (
-			);
-		};
-	};
-	632ADC900E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
-		name = "MacLibre3.py: 127";
-		rLen = 0;
-		rLoc = 5617;
-		rType = 0;
-		vrLen = 4003;
-		vrLoc = 3265;
-	};
-	632ADC910E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
-		name = "Distribution.py: 70";
-		rLen = 0;
-		rLoc = 3104;
-		rType = 0;
-		vrLen = 3106;
-		vrLoc = 999;
-	};
-	632ADC920E3913DF003C600B /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-		uiCtxt = {
-			UIContextForDetailArea = {
-				_indexOfSelectedPane = 0;
-				_indexOfSelectedView = 1;
-			};
-			UIContextForEntityArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnns = (
-					"ET Entity",
-					"ET Abstract",
-					"ET Class",
-				);
-				chosenTableColumnns_sortDirections = (
-					YES,
-				);
-				chosenTableColumnns_sortKeys = (
-					name,
-				);
-				chosenTableColumnns_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidths = (
-					103.000000,
-					22.000000,
-					190.080078,
-				);
-			};
-			UIContextForLayoutManager = {
-				detailSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {1043, 218}}",
-						"{{1048, 0}, {548, 218}}",
-					);
-				};
-				diagramSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {1596, 220}}",
-						"{{0, 225}, {1596, 821}}",
-					);
-				};
-				tableSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {340, 218}}",
-						"{{345, 0}, {696, 218}}",
-					);
-				};
-			};
-			UIContextForPropertyArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnnFRTs = (
-					"FT Fetch Request",
-					"FT Predicate",
-				);
-				chosenTableColumnnFRTs_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnFRTs_sortKeys = (
-					name,
-				);
-				chosenTableColumnnFRTs_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsAT = (
-					"AT Attribute",
-					"AT Type",
-				);
-				chosenTableColumnnsAT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsAT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsAT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsFPT = (
-					"FP FetchedProperty",
-					"FP Destination",
-					"FP Predicate",
-				);
-				chosenTableColumnnsFPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsFPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsFPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsPT = (
-					"PT Property",
-					"PT Kind",
-					"PT SharedKeyOne",
-				);
-				chosenTableColumnnsPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsRT = (
-					"RT Relationship",
-					"RT Destination",
-				);
-				chosenTableColumnnsRT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsRT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsRT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidthsAT = (
-					128.000000,
-					64.000000,
-				);
-				chosenTableWidthsFPT = (
-					128.000000,
-					64.000000,
-					144.764160,
-				);
-				chosenTableWidthsFRT = (
-					128.000000,
-					249.764160,
-				);
-				chosenTableWidthsPT = (
-					128.000000,
-					108.110840,
-					433.570801,
-				);
-				chosenTableWidthsRT = (
-					128.000000,
-					64.000000,
-				);
-			};
-			"xdesign model browser state key - shown/hidden" = 1;
-			"xdesign model diagram view visible rect key" = "{{-71, 0}, {1581, 806}}";
-			"xdesign model selected entities key" = (
-			);
-			"xdesign model selected properties key" = (
-			);
-		};
-	};
-	632ADC930E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
-		name = "Config.py: 31";
-		rLen = 0;
-		rLoc = 1393;
-		rType = 0;
-		vrLen = 2320;
-		vrLoc = 2774;
-	};
-	632ADC940E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
-		name = "en.xml: 96";
-		rLen = 8;
-		rLoc = 3965;
-		rType = 0;
-		vrLen = 3116;
-		vrLoc = 1040;
-	};
-	632ADC950E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
-		name = "MacLibre3AppDelegate.py: 16";
-		rLen = 208;
-		rLoc = 304;
-		rType = 0;
-		vrLen = 512;
-		vrLoc = 0;
-	};
-	632ADC960E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
-		name = "PackageList.py: 111";
-		rLen = 0;
-		rLoc = 4175;
-		rType = 0;
-		vrLen = 3439;
-		vrLoc = 736;
-	};
-	632ADC970E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
-		name = "InstallationGUI.py: 1";
-		rLen = 139;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 2490;
-		vrLoc = 0;
-	};
-	632ADC980E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
-		name = "Prefs.py: 118";
-		rLen = 0;
-		rLoc = 5070;
-		rType = 0;
-		vrLen = 3695;
-		vrLoc = 1421;
-	};
-	632ADC990E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
-		rLen = 0;
-		rLoc = 13842;
-		rType = 0;
-		vrLen = 3734;
-		vrLoc = 11783;
-	};
-	632ADC9A0E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43790DEBBB520074CC48 /* Downloader.py */;
-		name = "Downloader.py: 110";
-		rLen = 5;
-		rLoc = 4631;
-		rType = 0;
-		vrLen = 3263;
-		vrLoc = 1836;
-	};
-	632ADC9B0E3913DF003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
-		name = "config.xml: 7";
-		rLen = 0;
-		rLoc = 296;
-		rType = 0;
-		vrLen = 587;
-		vrLoc = 0;
-	};
-	632ADCBB0E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
-		rLen = 0;
-		rLoc = 13842;
-		rType = 0;
-		vrLen = 1034;
-		vrLoc = 13396;
-	};
-	632ADCBC0E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
-		name = "MacLibre3.py: 120";
-		rLen = 0;
-		rLoc = 5271;
-		rType = 0;
-		vrLen = 3909;
-		vrLoc = 3260;
-	};
-	632ADCBD0E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
-		name = "Distribution.py: 70";
-		rLen = 0;
-		rLoc = 3104;
-		rType = 0;
-		vrLen = 3087;
-		vrLoc = 999;
-	};
-	632ADCBE0E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
-		name = "Config.py: 31";
-		rLen = 0;
-		rLoc = 1393;
-		rType = 0;
-		vrLen = 2320;
-		vrLoc = 2774;
-	};
-	632ADCBF0E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
-		name = "en.xml: 96";
-		rLen = 8;
-		rLoc = 3965;
-		rType = 0;
-		vrLen = 3108;
-		vrLoc = 1040;
-	};
-	632ADCC00E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
-		name = "MacLibre3AppDelegate.py: 16";
-		rLen = 208;
-		rLoc = 304;
-		rType = 0;
-		vrLen = 512;
-		vrLoc = 0;
-	};
-	632ADCC10E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
-		name = "PackageList.py: 111";
-		rLen = 0;
-		rLoc = 4175;
-		rType = 0;
-		vrLen = 3419;
-		vrLoc = 736;
-	};
-	632ADCC20E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
-		name = "InstallationGUI.py: 1";
-		rLen = 139;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 2345;
-		vrLoc = 0;
-	};
-	632ADCC30E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
-		name = "Prefs.py: 118";
-		rLen = 0;
-		rLoc = 5070;
-		rType = 0;
-		vrLen = 3665;
-		vrLoc = 1421;
-	};
-	632ADCC40E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
-		rLen = 0;
-		rLoc = 13842;
-		rType = 0;
-		vrLen = 3644;
-		vrLoc = 11783;
-	};
-	632ADCC50E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43790DEBBB520074CC48 /* Downloader.py */;
-		name = "Downloader.py: 110";
-		rLen = 5;
-		rLoc = 4631;
-		rType = 0;
-		vrLen = 3263;
-		vrLoc = 1836;
-	};
-	632ADCC60E39148B003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
-		name = "config.xml: 7";
-		rLen = 0;
-		rLoc = 296;
-		rType = 0;
-		vrLen = 587;
-		vrLoc = 0;
-	};
-	632ADCD20E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
-		rLen = 0;
-		rLoc = 13842;
-		rType = 0;
-		vrLen = 1081;
-		vrLoc = 13396;
-	};
-	632ADCD30E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
-		name = "Prefs.py: 102";
-		rLen = 0;
-		rLoc = 4342;
-		rType = 0;
-		vrLen = 3662;
-		vrLoc = 1479;
-	};
-	632ADCD40E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
-		name = "MacLibre3.py: 120";
-		rLen = 0;
-		rLoc = 5271;
-		rType = 0;
-		vrLen = 3928;
-		vrLoc = 3260;
-	};
-	632ADCD50E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
-		name = "Distribution.py: 70";
-		rLen = 0;
-		rLoc = 3104;
-		rType = 0;
-		vrLen = 3106;
-		vrLoc = 999;
-	};
-	632ADCD60E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
-		name = "Config.py: 31";
-		rLen = 0;
-		rLoc = 1393;
-		rType = 0;
-		vrLen = 2320;
-		vrLoc = 2774;
-	};
-	632ADCD70E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
-		name = "en.xml: 96";
-		rLen = 8;
-		rLoc = 3965;
-		rType = 0;
-		vrLen = 3116;
-		vrLoc = 1040;
-	};
-	632ADCD80E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
-		name = "MacLibre3AppDelegate.py: 16";
-		rLen = 208;
-		rLoc = 304;
-		rType = 0;
-		vrLen = 512;
-		vrLoc = 0;
-	};
-	632ADCD90E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
-		name = "PackageList.py: 111";
-		rLen = 0;
-		rLoc = 4175;
-		rType = 0;
-		vrLen = 3439;
-		vrLoc = 736;
-	};
-	632ADCDA0E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
-		name = "InstallationGUI.py: 1";
-		rLen = 139;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 2490;
-		vrLoc = 0;
-	};
-	632ADCDB0E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
-		rLen = 0;
-		rLoc = 13842;
-		rType = 0;
-		vrLen = 3734;
-		vrLoc = 11783;
-	};
-	632ADCDC0E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43790DEBBB520074CC48 /* Downloader.py */;
-		name = "Downloader.py: 110";
-		rLen = 5;
-		rLoc = 4631;
-		rType = 0;
-		vrLen = 3263;
-		vrLoc = 1836;
-	};
-	632ADCDD0E391504003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
-		name = "config.xml: 7";
-		rLen = 0;
-		rLoc = 296;
-		rType = 0;
-		vrLen = 587;
-		vrLoc = 0;
-	};
 	632ADD630E391FBD003C600B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
@@ -964,26 +369,6 @@
 		rType = 0;
 		vrLen = 1081;
 		vrLoc = 13396;
-	};
-	632ADD640E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
-		name = "Prefs.py: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 502;
-		vrLoc = 0;
-	};
-	632ADD650E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 638C15730E31402800C2D46E /* config3.xml */;
-		name = "config3.xml: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 776;
-		vrLoc = 0;
 	};
 	632ADD660E391FBD003C600B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -995,17 +380,7 @@
 		vrLen = 1081;
 		vrLoc = 13396;
 	};
-	632ADD670E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 638C15730E31402800C2D46E /* config3.xml */;
-		name = "config3.xml: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 776;
-		vrLoc = 0;
-	};
-	632ADD680E391FBD003C600B /* PBXTextBookmark */ = {
+	632ADD8A0E392076003C600B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
 		name = "Prefs.py: 1";
@@ -1015,421 +390,42 @@
 		vrLen = 502;
 		vrLoc = 0;
 	};
-	632ADD690E391FBD003C600B /* PBXTextBookmark */ = {
+	632ADDC20E392230003C600B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 638C15730E31402800C2D46E /* config3.xml */;
-		name = "config3.xml: 1";
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 18";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 372;
 		rType = 0;
-		vrLen = 776;
+		vrLen = 424;
 		vrLoc = 0;
 	};
-	632ADD6A0E391FBD003C600B /* PBXTextBookmark */ = {
+	632ADDCA0E392230003C600B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 18";
 		rLen = 0;
-		rLoc = 13842;
+		rLoc = 372;
 		rType = 0;
-		vrLen = 3793;
-		vrLoc = 7780;
-	};
-	632ADD6B0E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
-		name = "Prefs.py: 102";
-		rLen = 0;
-		rLoc = 4342;
-		rType = 0;
-		vrLen = 3662;
-		vrLoc = 1479;
-	};
-	632ADD6C0E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
-		name = "MacLibre3.py: 120";
-		rLen = 0;
-		rLoc = 5271;
-		rType = 0;
-		vrLen = 3928;
-		vrLoc = 3260;
-	};
-	632ADD6D0E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
-		name = "Distribution.py: 70";
-		rLen = 0;
-		rLoc = 3104;
-		rType = 0;
-		vrLen = 3106;
-		vrLoc = 999;
-	};
-	632ADD6E0E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
-		name = "Config.py: 31";
-		rLen = 0;
-		rLoc = 1393;
-		rType = 0;
-		vrLen = 2320;
-		vrLoc = 2774;
-	};
-	632ADD6F0E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
-		name = "en.xml: 96";
-		rLen = 8;
-		rLoc = 3965;
-		rType = 0;
-		vrLen = 3116;
-		vrLoc = 1040;
-	};
-	632ADD700E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
-		name = "MacLibre3AppDelegate.py: 16";
-		rLen = 208;
-		rLoc = 304;
-		rType = 0;
-		vrLen = 512;
+		vrLen = 424;
 		vrLoc = 0;
 	};
-	632ADD710E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
-		name = "PackageList.py: 111";
-		rLen = 0;
-		rLoc = 4175;
-		rType = 0;
-		vrLen = 3439;
-		vrLoc = 736;
-	};
-	632ADD720E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
-		name = "InstallationGUI.py: 1";
-		rLen = 139;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 2490;
-		vrLoc = 0;
-	};
-	632ADD730E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43790DEBBB520074CC48 /* Downloader.py */;
-		name = "Downloader.py: 110";
-		rLen = 5;
-		rLoc = 4631;
-		rType = 0;
-		vrLen = 3263;
-		vrLoc = 1836;
-	};
-	632ADD740E391FBD003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
-		name = "config.xml: 7";
-		rLen = 0;
-		rLoc = 296;
-		rType = 0;
-		vrLen = 587;
-		vrLoc = 0;
-	};
-	632ADD790E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 638C15730E31402800C2D46E /* config3.xml */;
-		name = "config3.xml: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 776;
-		vrLoc = 0;
-	};
-	632ADD7A0E392038003C600B /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */;
-	};
-	632ADD7B0E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 638C15730E31402800C2D46E /* config3.xml */;
-		name = "config3.xml: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 776;
-		vrLoc = 0;
-	};
-	632ADD7C0E392038003C600B /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
+	632ADDDC0E39224D003C600B /* config3.xml */ = {
 		uiCtxt = {
-			UIContextForDetailArea = {
-				_indexOfSelectedPane = 0;
-				_indexOfSelectedView = 1;
-			};
-			UIContextForEntityArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnns = (
-					"ET Entity",
-					"ET Abstract",
-					"ET Class",
-				);
-				chosenTableColumnns_sortDirections = (
-					YES,
-				);
-				chosenTableColumnns_sortKeys = (
-					name,
-				);
-				chosenTableColumnns_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidths = (
-					103.000000,
-					22.000000,
-					115.080078,
-				);
-			};
-			UIContextForLayoutManager = {
-				detailSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {813, 218}}",
-						"{{818, 0}, {427, 218}}",
-					);
-				};
-				diagramSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {1245, 220}}",
-						"{{0, 225}, {1245, 80}}",
-					);
-				};
-				tableSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {265, 218}}",
-						"{{270, 0}, {543, 218}}",
-					);
-				};
-			};
-			UIContextForPropertyArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnnFRTs = (
-					"FT Fetch Request",
-					"FT Predicate",
-				);
-				chosenTableColumnnFRTs_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnFRTs_sortKeys = (
-					name,
-				);
-				chosenTableColumnnFRTs_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsAT = (
-					"AT Attribute",
-					"AT Type",
-				);
-				chosenTableColumnnsAT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsAT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsAT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsFPT = (
-					"FP FetchedProperty",
-					"FP Destination",
-					"FP Predicate",
-				);
-				chosenTableColumnnsFPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsFPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsFPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsPT = (
-					"PT Property",
-					"PT Kind",
-					"PT SharedKeyOne",
-				);
-				chosenTableColumnnsPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsRT = (
-					"RT Relationship",
-					"RT Destination",
-				);
-				chosenTableColumnnsRT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsRT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsRT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidthsAT = (
-					128.000000,
-					64.000000,
-				);
-				chosenTableWidthsFPT = (
-					128.000000,
-					64.000000,
-					144.764160,
-				);
-				chosenTableWidthsFRT = (
-					128.000000,
-					249.764160,
-				);
-				chosenTableWidthsPT = (
-					128.000000,
-					108.110840,
-					280.570801,
-				);
-				chosenTableWidthsRT = (
-					128.000000,
-					64.000000,
-				);
-			};
-			"xdesign model browser state key - shown/hidden" = 1;
-			"xdesign model diagram view visible rect key" = "{{0, 177}, {1230, 65}}";
-			"xdesign model selected entities key" = (
-			);
-			"xdesign model selected properties key" = (
-			);
+			sepNavIntBoundsRect = "{{0, 0}, {1186, 1638}}";
+			sepNavSelRange = "{6057, 0}";
+			sepNavVisRange = "{523, 2450}";
+			sepNavWindowFrame = "{{15, 14}, {1596, 1159}}";
 		};
 	};
-	632ADD7D0E392038003C600B /* PBXTextBookmark */ = {
+	632ADDEA0E39232E003C600B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 27";
 		rLen = 0;
-		rLoc = 13842;
+		rLoc = 837;
 		rType = 0;
-		vrLen = 3793;
-		vrLoc = 7780;
-	};
-	632ADD7E0E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
-		name = "Prefs.py: 102";
-		rLen = 0;
-		rLoc = 4342;
-		rType = 0;
-		vrLen = 3662;
-		vrLoc = 1479;
-	};
-	632ADD7F0E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
-		name = "MacLibre3.py: 120";
-		rLen = 0;
-		rLoc = 5271;
-		rType = 0;
-		vrLen = 3928;
-		vrLoc = 3260;
-	};
-	632ADD800E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
-		name = "Distribution.py: 70";
-		rLen = 0;
-		rLoc = 3104;
-		rType = 0;
-		vrLen = 3106;
-		vrLoc = 999;
-	};
-	632ADD810E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
-		name = "Config.py: 31";
-		rLen = 0;
-		rLoc = 1393;
-		rType = 0;
-		vrLen = 2320;
-		vrLoc = 2774;
-	};
-	632ADD820E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
-		name = "en.xml: 96";
-		rLen = 8;
-		rLoc = 3965;
-		rType = 0;
-		vrLen = 3116;
-		vrLoc = 1040;
-	};
-	632ADD830E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
-		name = "MacLibre3AppDelegate.py: 16";
-		rLen = 208;
-		rLoc = 304;
-		rType = 0;
-		vrLen = 512;
-		vrLoc = 0;
-	};
-	632ADD840E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
-		name = "PackageList.py: 111";
-		rLen = 0;
-		rLoc = 4175;
-		rType = 0;
-		vrLen = 3439;
-		vrLoc = 736;
-	};
-	632ADD850E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
-		name = "InstallationGUI.py: 1";
-		rLen = 139;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 2490;
-		vrLoc = 0;
-	};
-	632ADD860E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43790DEBBB520074CC48 /* Downloader.py */;
-		name = "Downloader.py: 110";
-		rLen = 5;
-		rLoc = 4631;
-		rType = 0;
-		vrLen = 3263;
-		vrLoc = 1836;
-	};
-	632ADD870E392038003C600B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
-		name = "config.xml: 7";
-		rLen = 0;
-		rLoc = 296;
-		rType = 0;
-		vrLen = 587;
+		vrLen = 1468;
 		vrLoc = 0;
 	};
 	633E4D9B0E071ABA003C170D /* Downloader3.py */ = {
@@ -1538,38 +534,11 @@
 	};
 	633E4E140E12E9C2003C170D /* Prefs.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 1680}}";
-			sepNavSelRange = "{4342, 0}";
-			sepNavVisRange = "{1479, 3662}";
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 1778}}";
+			sepNavSelRange = "{1160, 0}";
+			sepNavVisRange = "{222, 3188}";
 			sepNavWindowFrame = "{{195, 4}, {1430, 1174}}";
 		};
-	};
-	633E4E350E143F4F003C170D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD437D0DEBBB520074CC48 /* MacLibre.py */;
-		name = "MacLibre.py: 72";
-		rLen = 309;
-		rLoc = 2542;
-		rType = 0;
-		vrLen = 795;
-		vrLoc = 2048;
-	};
-	633E4E370E143F4F003C170D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 633E4E380E143F4F003C170D /* ezra.pbxuser */;
-		name = "ezra.pbxuser: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 757;
-		vrLoc = 0;
-	};
-	633E4E380E143F4F003C170D /* ezra.pbxuser */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text;
-		name = ezra.pbxuser;
-		path = /Users/ezra/Desktop/MacLibre3/MacLibre3.xcodeproj/ezra.pbxuser;
-		sourceTree = "<absolute>";
 	};
 	633E4E390E143F4F003C170D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1587,16 +556,6 @@
 		name = project.pbxproj;
 		path = /Users/ezra/Desktop/MacLibre3/MacLibre3.xcodeproj/project.pbxproj;
 		sourceTree = "<absolute>";
-	};
-	633E4E3D0E143F4F003C170D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
-		name = "config.xml: 7";
-		rLen = 0;
-		rLoc = 296;
-		rType = 0;
-		vrLen = 587;
-		vrLoc = 0;
 	};
 	633E4E3E0E143F4F003C170D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1687,7 +646,7 @@
 		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
 		name = "MacLibre3.py: 35";
 		rLen = 0;
-		rLoc = 1303;
+		rLoc = 1332;
 		rType = 0;
 		vrLen = 1241;
 		vrLoc = 690;
@@ -1754,16 +713,6 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
-	633E50590E1973C5003C170D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
-		name = "Prefs.py: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 394;
-		vrLoc = 0;
-	};
 	633E505A0E1973C5003C170D /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
@@ -1776,26 +725,6 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
-	633E50E10E197F03003C170D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
-		name = "MacLibre3.py: 38";
-		rLen = 0;
-		rLoc = 1303;
-		rType = 0;
-		vrLen = 1123;
-		vrLoc = 688;
-	};
-	633E51920E1ACF42003C170D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
-		name = "Downloader3.py: 22";
-		rLen = 0;
-		rLoc = 837;
-		rType = 0;
-		vrLen = 640;
-		vrLoc = 176;
-	};
 	633E52010E1C217B003C170D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 63DD43700DEBBB520074CC48 /* AppManager.py */;
@@ -1805,6 +734,222 @@
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 440;
+	};
+	6341A6020E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	6341A6030E4AAE250069238D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+	};
+	6341A6040E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	6341A6050E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1879;
+		vrLoc = 22297;
+	};
+	6341A6080E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 63";
+		rLen = 0;
+		rLoc = 1522;
+		rType = 0;
+		vrLen = 2513;
+		vrLoc = 180;
+	};
+	6341A6090E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2715;
+		vrLoc = 37;
+	};
+	6341A60A0E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2935;
+		vrLoc = 695;
+	};
+	6341A60B0E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	6341A60C0E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3263;
+		vrLoc = 2553;
+	};
+	6341A60D0E4AAE250069238D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6341A60E0E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 2689;
+		vrLoc = 0;
+	};
+	6341A60F0E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 167";
+		rLen = 8;
+		rLoc = 7794;
+		rType = 0;
+		vrLen = 4050;
+		vrLoc = 5678;
+	};
+	6341A6100E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	6341A6110E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3116;
+		vrLoc = 1040;
+	};
+	6341A6120E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	6341A6130E4AAE250069238D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
+		name = "MacLibre3.py: 66";
+		rLen = 0;
+		rLoc = 2609;
+		rType = 0;
+		vrLen = 4105;
+		vrLoc = 3986;
+	};
+	634E9B870E3A736400334FE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 632ADDDC0E39224D003C600B /* config3.xml */;
+		name = "config3.xml: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2305;
+		vrLoc = 335;
+	};
+	634E9B880E3A736400334FE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
+		name = "MacLibre3.py: 42";
+		rLen = 0;
+		rLoc = 1332;
+		rType = 0;
+		vrLen = 2004;
+		vrLoc = 362;
+	};
+	634E9B890E3A736400334FE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 100;
+		vrLoc = 0;
+	};
+	634E9B8A0E3A736400334FE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 632ADDDC0E39224D003C600B /* config3.xml */;
+		name = "config3.xml: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2305;
+		vrLoc = 335;
+	};
+	634E9B8C0E3A736400334FE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 100;
+		vrLoc = 0;
+	};
+	634E9BBE0E3A73CE00334FE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E4A0E143F4F003C170D /* ezra.pbxuser */;
+		name = "ezra.pbxuser: 2463";
+		rLen = 0;
+		rLoc = 68833;
+		rType = 0;
+		vrLen = 3424;
+		vrLoc = 4856;
 	};
 	6360DAB00E26AA2C000B40B5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1826,131 +971,11 @@
 		vrLen = 748;
 		vrLoc = 1889;
 	};
-	637106710E3834220058FF2F /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-	};
-	637106740E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
-		name = "MacLibre3.py: 127";
-		rLen = 0;
-		rLoc = 5617;
-		rType = 0;
-		vrLen = 4003;
-		vrLoc = 3265;
-	};
-	637106750E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
-		name = "Distribution.py: 70";
-		rLen = 0;
-		rLoc = 3104;
-		rType = 0;
-		vrLen = 3107;
-		vrLoc = 998;
-	};
-	637106760E3834220058FF2F /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-	};
-	637106770E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
-		name = "Config.py: 31";
-		rLen = 0;
-		rLoc = 1393;
-		rType = 0;
-		vrLen = 2320;
-		vrLoc = 2774;
-	};
-	637106780E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
-		name = "en.xml: 96";
-		rLen = 8;
-		rLoc = 3965;
-		rType = 0;
-		vrLen = 3116;
-		vrLoc = 1040;
-	};
-	637106790E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
-		name = "MacLibre3AppDelegate.py: 16";
-		rLen = 208;
-		rLoc = 304;
-		rType = 0;
-		vrLen = 512;
-		vrLoc = 0;
-	};
-	6371067A0E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
-		name = "PackageList.py: 111";
-		rLen = 0;
-		rLoc = 4175;
-		rType = 0;
-		vrLen = 3439;
-		vrLoc = 736;
-	};
-	6371067B0E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
-		name = "InstallationGUI.py: 1";
-		rLen = 139;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 2490;
-		vrLoc = 0;
-	};
-	6371067C0E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
-		name = "Prefs.py: 118";
-		rLen = 0;
-		rLoc = 5070;
-		rType = 0;
-		vrLen = 3695;
-		vrLoc = 1421;
-	};
-	6371067D0E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
-		rLen = 0;
-		rLoc = 13842;
-		rType = 0;
-		vrLen = 3734;
-		vrLoc = 11783;
-	};
-	6371067E0E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43790DEBBB520074CC48 /* Downloader.py */;
-		name = "Downloader.py: 110";
-		rLen = 5;
-		rLoc = 4631;
-		rType = 0;
-		vrLen = 3263;
-		vrLoc = 1836;
-	};
-	6371067F0E3834220058FF2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
-		name = "config.xml: 7";
-		rLen = 0;
-		rLoc = 296;
-		rType = 0;
-		vrLen = 587;
-		vrLoc = 0;
-	};
 	6381BAA70DF74265005A13F0 /* InstallationGUI.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 1274}}";
-			sepNavSelRange = "{0, 139}";
-			sepNavVisRange = "{0, 2490}";
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 1260}}";
+			sepNavSelRange = "{2105, 19}";
+			sepNavVisRange = "{189, 2699}";
 			sepNavWindowFrame = "{{455, 4}, {1430, 1174}}";
 		};
 	};
@@ -1959,7 +984,7 @@
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
 					_indexOfSelectedPane = 0;
-					_indexOfSelectedView = 1;
+					_indexOfSelectedView = 0;
 				};
 				UIContextForEntityArea = {
 					_indexOfSelectedView = 0;
@@ -1980,7 +1005,7 @@
 					chosenTableWidths = (
 						103.000000,
 						22.000000,
-						115.080078,
+						189.080078,
 					);
 				};
 				UIContextForLayoutManager = {
@@ -1990,8 +1015,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {813, 218}}",
-							"{{818, 0}, {427, 218}}",
+							"{{0, 0}, {1043, 220}}",
+							"{{1048, 0}, {548, 220}}",
 						);
 					};
 					diagramSplitGeometry = {
@@ -2000,8 +1025,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {1245, 220}}",
-							"{{0, 225}, {1245, 80}}",
+							"{{0, 0}, {1596, 220}}",
+							"{{0, 225}, {1596, 821}}",
 						);
 					};
 					tableSplitGeometry = {
@@ -2010,8 +1035,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {265, 218}}",
-							"{{270, 0}, {543, 218}}",
+							"{{0, 0}, {339, 218}}",
+							"{{344, 0}, {697, 218}}",
 						);
 					};
 				};
@@ -2100,7 +1125,7 @@
 					chosenTableWidthsPT = (
 						128.000000,
 						108.110840,
-						280.570801,
+						434.570801,
 					);
 					chosenTableWidthsRT = (
 						128.000000,
@@ -2108,87 +1133,120 @@
 					);
 				};
 				"xdesign model browser state key - shown/hidden" = 1;
-				"xdesign model diagram view visible rect key" = "{{0, 177}, {1230, 65}}";
+				"xdesign model diagram view visible rect key" = "{{-71, 63}, {1581, 806}}";
 			};
-			sepNavWindowFrame = "{{5, -1133}, {1596, 1159}}";
+			sepNavWindowFrame = "{{27, -154}, {1596, 1159}}";
 		};
 	};
-	638C15410E313F3500C2D46E /* PBXTextBookmark */ = {
+	63961CD70E43B347004BAEDF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
-		rLen = 0;
-		rLoc = 13842;
+		fRef = 63DD437D0DEBBB520074CC48 /* MacLibre.py */;
+		name = "MacLibre.py: 74";
+		rLen = 309;
+		rLoc = 2542;
 		rType = 0;
-		vrLen = 1081;
-		vrLoc = 13396;
+		vrLen = 1520;
+		vrLoc = 1609;
 	};
-	638C15440E313F3500C2D46E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
-		rLen = 0;
-		rLoc = 13842;
-		rType = 0;
-		vrLen = 1081;
-		vrLoc = 13396;
-	};
-	638C15730E31402800C2D46E /* config3.xml */ = {
+	63961E170E4410BF004BAEDF /* NSArrayController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1186, 868}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1537, 1046}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 776}";
+			sepNavVisRange = "{0, 271}";
+			sepNavWindowFrame = "{{293, -488}, {1596, 1159}}";
 		};
 	};
-	638C15E80E32E16700C2D46E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
-		name = "Downloader3.py: 91";
-		rLen = 0;
-		rLoc = 3507;
-		rType = 0;
-		vrLen = 3072;
-		vrLoc = 789;
-	};
-	63C8B1A90DFDA0B00048F045 /* Downloader3.py */ = {
+	63961FB40E47A81A004BAEDF /* NSTreeController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 2198}}";
-			sepNavSelRange = "{547, 93}";
-			sepNavVisRange = "{0, 2778}";
-			sepNavWindowFrame = "{{130, 4}, {1430, 1174}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1537, 1046}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 265}";
+			sepNavWindowFrame = "{{15, 14}, {1596, 1159}}";
 		};
 	};
-	63CCDD510E36D81900A72E69 /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-	};
-	63CCDD520E36D81900A72E69 /* PBXTextBookmark */ = {
+	639620DE0E495B1B004BAEDF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
-		name = "MacLibre3.py: 127";
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 42";
 		rLen = 0;
-		rLoc = 5617;
+		rLoc = 703;
 		rType = 0;
-		vrLen = 3815;
-		vrLoc = 2950;
+		vrLen = 2052;
+		vrLoc = 238;
 	};
-	63CCDD530E36D81900A72E69 /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 638C15260E313B9700C2D46E /* MacLibreAdminDocument.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-	};
-	63CCDD540E36D81900A72E69 /* PBXTextBookmark */ = {
+	639620DF0E495B1C004BAEDF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
-		name = "Distribution.py: 16";
-		rLen = 0;
-		rLoc = 919;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
 		rType = 0;
-		vrLen = 3011;
-		vrLoc = 3060;
+		vrLen = 2949;
+		vrLoc = 695;
 	};
-	63CCDD550E36D81900A72E69 /* PBXTextBookmark */ = {
+	639620E00E495B1C004BAEDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
+		name = "MacLibre3.py: 33";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 3668;
+		vrLoc = 161;
+	};
+	639620E10E495B1C004BAEDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639620E20E495B1C004BAEDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3263;
+		vrLoc = 2553;
+	};
+	639620E30E495B1C004BAEDF /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639620E40E495B1C004BAEDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 2689;
+		vrLoc = 0;
+	};
+	639620E50E495B1C004BAEDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 167";
+		rLen = 8;
+		rLoc = 7794;
+		rType = 0;
+		vrLen = 4050;
+		vrLoc = 5678;
+	};
+	639620E60E495B1C004BAEDF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
 		name = "Config.py: 31";
@@ -2198,7 +1256,7 @@
 		vrLen = 2320;
 		vrLoc = 2774;
 	};
-	63CCDD560E36D81900A72E69 /* PBXTextBookmark */ = {
+	639620E70E495B1C004BAEDF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
 		name = "en.xml: 96";
@@ -2208,7 +1266,7 @@
 		vrLen = 3116;
 		vrLoc = 1040;
 	};
-	63CCDD570E36D81900A72E69 /* PBXTextBookmark */ = {
+	639620E80E495B1C004BAEDF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
 		name = "MacLibre3AppDelegate.py: 16";
@@ -2218,17 +1276,7 @@
 		vrLen = 512;
 		vrLoc = 0;
 	};
-	63CCDD580E36D81900A72E69 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
-		name = "PackageList.py: 111";
-		rLen = 0;
-		rLoc = 4175;
-		rType = 0;
-		vrLen = 3439;
-		vrLoc = 736;
-	};
-	63CCDD590E36D81900A72E69 /* PBXTextBookmark */ = {
+	639620E90E495B1C004BAEDF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
 		name = "InstallationGUI.py: 1";
@@ -2238,37 +1286,47 @@
 		vrLen = 2490;
 		vrLoc = 0;
 	};
-	63CCDD5A0E36D81900A72E69 /* PBXTextBookmark */ = {
+	639AB9050E4B8A49006A03DA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
-		name = "Prefs.py: 118";
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 22297;
+	};
+	639AB9080E4B8A49006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 63";
 		rLen = 0;
-		rLoc = 5070;
+		rLoc = 1522;
 		rType = 0;
-		vrLen = 3695;
-		vrLoc = 1421;
+		vrLen = 2500;
+		vrLoc = 193;
 	};
-	63CCDD5B0E36D81900A72E69 /* PBXTextBookmark */ = {
+	639AB9090E4B8A49006A03DA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
-		name = "Installer.py: 292";
-		rLen = 0;
-		rLoc = 13842;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
 		rType = 0;
-		vrLen = 3734;
-		vrLoc = 11783;
+		vrLen = 2655;
+		vrLoc = 37;
 	};
-	63CCDD5C0E36D81900A72E69 /* PBXTextBookmark */ = {
+	639AB90A0E4B8A49006A03DA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 63DD43790DEBBB520074CC48 /* Downloader.py */;
-		name = "Downloader.py: 110";
-		rLen = 5;
-		rLoc = 4631;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
 		rType = 0;
-		vrLen = 3263;
-		vrLoc = 1836;
+		vrLen = 2935;
+		vrLoc = 695;
 	};
-	63CCDD5D0E36D81900A72E69 /* PBXTextBookmark */ = {
+	639AB90B0E4B8A49006A03DA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
 		name = "config.xml: 7";
@@ -2277,6 +1335,1350 @@
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 0;
+	};
+	639AB90C0E4B8A49006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3263;
+		vrLoc = 2553;
+	};
+	639AB90D0E4B8A49006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB90E0E4B8A49006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 2689;
+		vrLoc = 0;
+	};
+	639AB90F0E4B8A49006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 167";
+		rLen = 8;
+		rLoc = 7794;
+		rType = 0;
+		vrLen = 4050;
+		vrLoc = 5678;
+	};
+	639AB9100E4B8A49006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9110E4B8A49006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3116;
+		vrLoc = 1040;
+	};
+	639AB9120E4B8A49006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB9130E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 22297;
+	};
+	639AB9140E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 66";
+		rLen = 0;
+		rLoc = 1701;
+		rType = 0;
+		vrLen = 2865;
+		vrLoc = 287;
+	};
+	639AB9150E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2655;
+		vrLoc = 37;
+	};
+	639AB9160E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2935;
+		vrLoc = 695;
+	};
+	639AB9170E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB9180E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3263;
+		vrLoc = 2553;
+	};
+	639AB9190E4B8A8E006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB91A0E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 2689;
+		vrLoc = 0;
+	};
+	639AB91B0E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 167";
+		rLen = 8;
+		rLoc = 7794;
+		rType = 0;
+		vrLen = 4050;
+		vrLoc = 5678;
+	};
+	639AB91C0E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB91D0E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3116;
+		vrLoc = 1040;
+	};
+	639AB91E0E4B8A8E006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB9270E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 22297;
+	};
+	639AB9280E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 64";
+		rLen = 0;
+		rLoc = 1560;
+		rType = 0;
+		vrLen = 2884;
+		vrLoc = 287;
+	};
+	639AB9290E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2935;
+		vrLoc = 695;
+	};
+	639AB92A0E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2655;
+		vrLoc = 37;
+	};
+	639AB92B0E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB92C0E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3263;
+		vrLoc = 2553;
+	};
+	639AB92D0E4B9AE0006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB92E0E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 2689;
+		vrLoc = 0;
+	};
+	639AB92F0E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 167";
+		rLen = 8;
+		rLoc = 7794;
+		rType = 0;
+		vrLen = 4050;
+		vrLoc = 5678;
+	};
+	639AB9300E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9310E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3116;
+		vrLoc = 1040;
+	};
+	639AB9320E4B9AE0006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB93D0E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1746;
+		vrLoc = 22297;
+	};
+	639AB93E0E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 64";
+		rLen = 0;
+		rLoc = 1559;
+		rType = 0;
+		vrLen = 2749;
+		vrLoc = 287;
+	};
+	639AB93F0E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2885;
+		vrLoc = 695;
+	};
+	639AB9400E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2564;
+		vrLoc = 37;
+	};
+	639AB9410E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB9420E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3231;
+		vrLoc = 2553;
+	};
+	639AB9430E4B9B6C006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB9440E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 2662;
+		vrLoc = 0;
+	};
+	639AB9450E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 167";
+		rLen = 8;
+		rLoc = 7794;
+		rType = 0;
+		vrLen = 3989;
+		vrLoc = 5678;
+	};
+	639AB9460E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9470E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3108;
+		vrLoc = 1040;
+	};
+	639AB9480E4B9B6C006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB94D0E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1746;
+		vrLoc = 22297;
+	};
+	639AB94E0E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 64";
+		rLen = 0;
+		rLoc = 1541;
+		rType = 0;
+		vrLen = 2693;
+		vrLoc = 287;
+	};
+	639AB94F0E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2885;
+		vrLoc = 695;
+	};
+	639AB9500E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2564;
+		vrLoc = 37;
+	};
+	639AB9510E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB9520E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3231;
+		vrLoc = 2553;
+	};
+	639AB9530E4B9BD1006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB9540E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 2662;
+		vrLoc = 0;
+	};
+	639AB9550E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 167";
+		rLen = 8;
+		rLoc = 7794;
+		rType = 0;
+		vrLen = 3989;
+		vrLoc = 5678;
+	};
+	639AB9560E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9570E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3108;
+		vrLoc = 1040;
+	};
+	639AB9580E4B9BD1006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB9590E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 22297;
+	};
+	639AB95A0E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 64";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 2887;
+		vrLoc = 287;
+	};
+	639AB95B0E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2935;
+		vrLoc = 695;
+	};
+	639AB95C0E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2655;
+		vrLoc = 37;
+	};
+	639AB95D0E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB95E0E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3263;
+		vrLoc = 2553;
+	};
+	639AB95F0E4B9BDA006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB9600E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 2689;
+		vrLoc = 0;
+	};
+	639AB9610E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 167";
+		rLen = 8;
+		rLoc = 7794;
+		rType = 0;
+		vrLen = 4050;
+		vrLoc = 5678;
+	};
+	639AB9620E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9630E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3116;
+		vrLoc = 1040;
+	};
+	639AB9640E4B9BDA006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB9660E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 22297;
+	};
+	639AB9670E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 67";
+		rLen = 0;
+		rLoc = 1766;
+		rType = 0;
+		vrLen = 2901;
+		vrLoc = 287;
+	};
+	639AB9680E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2935;
+		vrLoc = 695;
+	};
+	639AB9690E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2655;
+		vrLoc = 37;
+	};
+	639AB96A0E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB96B0E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3263;
+		vrLoc = 2553;
+	};
+	639AB96C0E4B9C96006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB96D0E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 2689;
+		vrLoc = 0;
+	};
+	639AB96E0E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 167";
+		rLen = 8;
+		rLoc = 7794;
+		rType = 0;
+		vrLen = 4050;
+		vrLoc = 5678;
+	};
+	639AB96F0E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9700E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3116;
+		vrLoc = 1040;
+	};
+	639AB9710E4B9C96006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB97B0E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 22297;
+	};
+	639AB97C0E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 67";
+		rLen = 0;
+		rLoc = 2340;
+		rType = 0;
+		vrLen = 3164;
+		vrLoc = 219;
+	};
+	639AB97D0E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 68";
+		rLen = 0;
+		rLoc = 1738;
+		rType = 0;
+		vrLen = 2089;
+		vrLoc = 0;
+	};
+	639AB97E0E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 65";
+		rLen = 0;
+		rLoc = 2818;
+		rType = 0;
+		vrLen = 3599;
+		vrLoc = 26;
+	};
+	639AB97F0E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2935;
+		vrLoc = 695;
+	};
+	639AB9800E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2655;
+		vrLoc = 37;
+	};
+	639AB9810E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB9820E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3263;
+		vrLoc = 2553;
+	};
+	639AB9830E4B9ED3006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB9840E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9850E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3116;
+		vrLoc = 1040;
+	};
+	639AB9860E4B9ED3006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB98A0E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1746;
+		vrLoc = 22297;
+	};
+	639AB98B0E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 38";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 3188;
+		vrLoc = 222;
+	};
+	639AB98C0E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 65";
+		rLen = 0;
+		rLoc = 2818;
+		rType = 0;
+		vrLen = 3512;
+		vrLoc = 26;
+	};
+	639AB98D0E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 68";
+		rLen = 0;
+		rLoc = 1738;
+		rType = 0;
+		vrLen = 2064;
+		vrLoc = 0;
+	};
+	639AB98E0E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2885;
+		vrLoc = 695;
+	};
+	639AB98F0E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2564;
+		vrLoc = 37;
+	};
+	639AB9900E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB9910E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3231;
+		vrLoc = 2553;
+	};
+	639AB9920E4B9F16006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB9930E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9940E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3108;
+		vrLoc = 1040;
+	};
+	639AB9950E4B9F16006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB99A0E4B9F6B006A03DA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
+	};
+	639AB9A30E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 22297;
+	};
+	639AB9A40E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 492";
+		rLen = 0;
+		rLoc = 22944;
+		rType = 0;
+		vrLen = 3813;
+		vrLoc = 20889;
+	};
+	639AB9A50E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 38";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 3253;
+		vrLoc = 222;
+	};
+	639AB9A80E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
+		name = "MacLibre3.py: 74";
+		rLen = 0;
+		rLoc = 3094;
+		rType = 0;
+		vrLen = 3620;
+		vrLoc = 510;
+	};
+	639AB9A90E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2727;
+		vrLoc = 189;
+	};
+	639AB9AA0E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 68";
+		rLen = 0;
+		rLoc = 1738;
+		rType = 0;
+		vrLen = 2089;
+		vrLoc = 0;
+	};
+	639AB9AB0E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2935;
+		vrLoc = 695;
+	};
+	639AB9AC0E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB9AD0E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3263;
+		vrLoc = 2553;
+	};
+	639AB9AE0E4BA2FB006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB9AF0E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9B00E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3116;
+		vrLoc = 1040;
+	};
+	639AB9B10E4BA2FB006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	639AB9BB0E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 22297;
+	};
+	639AB9BC0E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */;
+		name = "GUI_MaclibreWizard.py: 578";
+		rLen = 19;
+		rLoc = 23216;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 22297;
+	};
+	639AB9BD0E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 632ADDDC0E39224D003C600B /* config3.xml */;
+		name = "config3.xml: 93";
+		rLen = 0;
+		rLoc = 6057;
+		rType = 0;
+		vrLen = 2450;
+		vrLoc = 523;
+	};
+	639AB9BE0E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD456D0DEC69780074CC48 /* MacLibre3.py */;
+		name = "MacLibre3.py: 118";
+		rLen = 31;
+		rLoc = 5042;
+		rType = 0;
+		vrLen = 3727;
+		vrLoc = 2048;
+	};
+	639AB9BF0E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD437C0DEBBB520074CC48 /* Installer.py */;
+		name = "Installer.py: 492";
+		rLen = 0;
+		rLoc = 22944;
+		rType = 0;
+		vrLen = 3698;
+		vrLoc = 20889;
+	};
+	639AB9C00E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 633E4E140E12E9C2003C170D /* Prefs.py */;
+		name = "Prefs.py: 38";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 3188;
+		vrLoc = 222;
+	};
+	639AB9C10E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6381BAA70DF74265005A13F0 /* InstallationGUI.py */;
+		name = "InstallationGUI.py: 70";
+		rLen = 19;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 2699;
+		vrLoc = 189;
+	};
+	639AB9C20E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD46B10DEDE18C0074CC48 /* PackageList.py */;
+		name = "PackageList.py: 68";
+		rLen = 0;
+		rLoc = 1738;
+		rType = 0;
+		vrLen = 2064;
+		vrLoc = 0;
+	};
+	639AB9C30E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43730DEBBB520074CC48 /* Distribution.py */;
+		name = "Distribution.py: 59";
+		rLen = 13;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 2885;
+		vrLoc = 695;
+	};
+	639AB9C40E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43870DEBBB520074CC48 /* config.xml */;
+		name = "config.xml: 7";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	639AB9C50E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */;
+		name = "Downloader3.py: 142";
+		rLen = 0;
+		rLoc = 5548;
+		rType = 0;
+		vrLen = 3231;
+		vrLoc = 2553;
+	};
+	639AB9C60E4CF5A9006A03DA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = /Users/ezra/Desktop/MacLibre3/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	639AB9C70E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43710DEBBB520074CC48 /* Config.py */;
+		name = "Config.py: 31";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2774;
+	};
+	639AB9C80E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DD43880DEBBB520074CC48 /* en.xml */;
+		name = "en.xml: 96";
+		rLen = 8;
+		rLoc = 3965;
+		rType = 0;
+		vrLen = 3108;
+		vrLoc = 1040;
+	};
+	639AB9C90E4CF5A9006A03DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */;
+		name = "MacLibre3AppDelegate.py: 16";
+		rLen = 208;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	63C8B1A90DFDA0B00048F045 /* Downloader3.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 2142}}";
+			sepNavSelRange = "{5548, 0}";
+			sepNavVisRange = "{2553, 3231}";
+			sepNavWindowFrame = "{{428, 4}, {1430, 1174}}";
+		};
 	};
 	63DD433B0DEBAA930074CC48 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -2315,10 +2717,10 @@
 	};
 	63DD43730DEBBB520074CC48 /* Distribution.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 2226}}";
-			sepNavSelRange = "{3104, 0}";
-			sepNavVisRange = "{999, 3106}";
-			sepNavWindowFrame = "{{49, -47}, {1430, 1174}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 2240}}";
+			sepNavSelRange = "{2521, 13}";
+			sepNavVisRange = "{695, 2885}";
+			sepNavWindowFrame = "{{59, -709}, {1430, 1174}}";
 		};
 	};
 	63DD43780DEBBB520074CC48 /* DmgContainer.py */ = {
@@ -2333,15 +2735,15 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1371, 1764}}";
 			sepNavSelRange = "{4631, 5}";
-			sepNavVisRange = "{1836, 3263}";
+			sepNavVisRange = "{0, 3197}";
 			sepNavWindowFrame = "{{467, 4}, {1430, 1174}}";
 		};
 	};
 	63DD437A0DEBBB520074CC48 /* GUI_MaclibreWizard.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 9198}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1186, 8960}}";
 			sepNavSelRange = "{23216, 19}";
-			sepNavVisRange = "{21354, 3461}";
+			sepNavVisRange = "{22297, 1804}";
 			sepNavWindowFrame = "{{26, 4}, {1430, 1174}}";
 		};
 	};
@@ -2355,17 +2757,17 @@
 	};
 	63DD437C0DEBBB520074CC48 /* Installer.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 9408}}";
-			sepNavSelRange = "{13842, 0}";
-			sepNavVisRange = "{7780, 3793}";
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 9548}}";
+			sepNavSelRange = "{22944, 0}";
+			sepNavVisRange = "{20889, 3698}";
 			sepNavWindowFrame = "{{326, 4}, {1430, 1174}}";
 		};
 	};
 	63DD437D0DEBBB520074CC48 /* MacLibre.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 1750}}";
-			sepNavSelRange = "{1127, 0}";
-			sepNavVisRange = "{0, 2732}";
+			sepNavIntBoundsRect = "{{0, 0}, {1186, 1862}}";
+			sepNavSelRange = "{2542, 309}";
+			sepNavVisRange = "{1609, 1520}";
 			sepNavWindowFrame = "{{57, -141}, {1430, 1174}}";
 		};
 	};
@@ -2419,7 +2821,7 @@
 	};
 	63DD43870DEBBB520074CC48 /* config.xml */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 1061}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 1038}}";
 			sepNavSelRange = "{296, 0}";
 			sepNavVisRange = "{0, 587}";
 			sepNavWindowFrame = "{{301, 4}, {1430, 1174}}";
@@ -2429,29 +2831,29 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1371, 7406}}";
 			sepNavSelRange = "{3965, 8}";
-			sepNavVisRange = "{1040, 3116}";
+			sepNavVisRange = "{1040, 3108}";
 			sepNavWindowFrame = "{{47, -372}, {1430, 1174}}";
 		};
 	};
 	63DD456D0DEC69780074CC48 /* MacLibre3.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 2170}}";
-			sepNavSelRange = "{5271, 0}";
-			sepNavVisRange = "{3260, 3928}";
-			sepNavWindowFrame = "{{285, 4}, {1430, 1174}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 2450}}";
+			sepNavSelRange = "{5042, 31}";
+			sepNavVisRange = "{2048, 3727}";
+			sepNavWindowFrame = "{{384, -588}, {1430, 1174}}";
 		};
 	};
 	63DD46B10DEDE18C0074CC48 /* PackageList.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 1554}}";
-			sepNavSelRange = "{4175, 0}";
-			sepNavVisRange = "{736, 3439}";
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 2366}}";
+			sepNavSelRange = "{1738, 0}";
+			sepNavVisRange = "{0, 2064}";
 			sepNavWindowFrame = "{{119, 4}, {1430, 1174}}";
 		};
 	};
 	77631A3E0C0748CF005415CB /* main.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 1038}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1186, 308}}";
 			sepNavSelRange = "{372, 0}";
 			sepNavVisRange = "{0, 424}";
 			sepNavWindowFrame = "{{15, -1}, {1430, 1174}}";
@@ -2459,7 +2861,7 @@
 	};
 	7790198E0C07548A00326F66 /* MacLibre3AppDelegate.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 1061}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 1038}}";
 			sepNavSelRange = "{304, 208}";
 			sepNavVisRange = "{0, 512}";
 			sepNavWindowFrame = "{{362, -335}, {1430, 1174}}";
