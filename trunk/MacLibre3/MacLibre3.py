@@ -20,6 +20,10 @@ bundle_path="/System/Library/Frameworks/SecurityInterface.framework")
 
 
 class MacLibre3(NSObject):
+
+    #change the following line to use a different config file
+    configURL="http://maclibre.googlecode.com/svn/trunk/MacLibre3/config3.xml"
+    
     tabs = objc.IBOutlet()
     packList=objc.IBOutlet()
     packConf=objc.IBOutlet()
@@ -46,7 +50,7 @@ class MacLibre3(NSObject):
             downloader = Downloader.alloc().init()
             destination=NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, True)[0]+'/MacLibre3/config3.xml'
             print destination
-            downloader.setup( 'http://maclibre.googlecode.com/svn/trunk/MacLibre3/config3.xml' , destination , None, None, maclibre3=self )
+            downloader.setup( self.configURL , destination , None, None, maclibre3=self )
             
             #self.progressionPage.gaugeDesc.SetLabel('                                                                                      ')
             downloader.registerFinishFunction(self,'processPackages')
