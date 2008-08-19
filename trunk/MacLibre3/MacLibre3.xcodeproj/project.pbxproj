@@ -16,8 +16,10 @@
 		63961FB50E47A81A004BAEDF /* NSTreeController.py in Resources */ = {isa = PBXBuildFile; fileRef = 63961FB40E47A81A004BAEDF /* NSTreeController.py */; };
 		63AD59DA0DF5E07800039DCE /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD59D90DF5E07800039DCE /* SecurityInterface.framework */; };
 		63AD5A2E0DF5E56D00039DCE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD5A2D0DF5E56D00039DCE /* Security.framework */; };
-		63AE00C20E5A3454004DE2DF /* GIMP-2.4.6-20080601-Leopard-PowerPC.dmg in Resources */ = {isa = PBXBuildFile; fileRef = 63AE00C10E5A3454004DE2DF /* GIMP-2.4.6-20080601-Leopard-PowerPC.dmg */; };
 		63AE02820E5A6820004DE2DF /* maclibre.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63AE02810E5A6820004DE2DF /* maclibre.icns */; };
+		63AE02B40E5A7A95004DE2DF /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AE02B30E5A7A95004DE2DF /* Sparkle.framework */; };
+		63AE02F50E5A7B08004DE2DF /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63AE02B30E5A7A95004DE2DF /* Sparkle.framework */; };
+		63AE030C0E5A7D93004DE2DF /* updates.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63AE030B0E5A7D93004DE2DF /* updates.xml */; };
 		63C8B1AA0DFDA0B00048F045 /* Downloader3.py in Resources */ = {isa = PBXBuildFile; fileRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */; };
 		63DD43890DEBBB520074CC48 /* AbiWord.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43400DEBBB510074CC48 /* AbiWord.png */; };
 		63DD438A0DEBBB520074CC48 /* Adium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43410DEBBB510074CC48 /* Adium.png */; };
@@ -97,6 +99,19 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		63AE02E70E5A7ADA004DE2DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63AE02F50E5A7B08004DE2DF /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -115,8 +130,9 @@
 		63961FB40E47A81A004BAEDF /* NSTreeController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = NSTreeController.py; sourceTree = "<group>"; };
 		63AD59D90DF5E07800039DCE /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = /System/Library/Frameworks/SecurityInterface.framework; sourceTree = "<absolute>"; };
 		63AD5A2D0DF5E56D00039DCE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
-		63AE00C10E5A3454004DE2DF /* GIMP-2.4.6-20080601-Leopard-PowerPC.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GIMP-2.4.6-20080601-Leopard-PowerPC.dmg"; sourceTree = "<group>"; };
 		63AE02810E5A6820004DE2DF /* maclibre.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = maclibre.icns; sourceTree = "<group>"; };
+		63AE02B30E5A7A95004DE2DF /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		63AE030B0E5A7D93004DE2DF /* updates.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = updates.xml; sourceTree = "<group>"; };
 		63C8B1A90DFDA0B00048F045 /* Downloader3.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Downloader3.py; sourceTree = SOURCE_ROOT; };
 		63DD43400DEBBB510074CC48 /* AbiWord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AbiWord.png; sourceTree = "<group>"; };
 		63DD43410DEBBB510074CC48 /* Adium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adium.png; sourceTree = "<group>"; };
@@ -203,6 +219,7 @@
 				77631A270C06C501005415CB /* Python.framework in Frameworks */,
 				63AD59DA0DF5E07800039DCE /* SecurityInterface.framework in Frameworks */,
 				63AD5A2E0DF5E56D00039DCE /* Security.framework in Frameworks */,
+				63AE02B40E5A7A95004DE2DF /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +242,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63AE02B30E5A7A95004DE2DF /* Sparkle.framework */,
 				63AD5A2D0DF5E56D00039DCE /* Security.framework */,
 				63AD59D90DF5E07800039DCE /* SecurityInterface.framework */,
 				77631A260C06C501005415CB /* Python.framework */,
@@ -254,7 +272,7 @@
 		29B97314FDCFA39411CA2CEA /* MacLibre3 */ = {
 			isa = PBXGroup;
 			children = (
-				63AE00C10E5A3454004DE2DF /* GIMP-2.4.6-20080601-Leopard-PowerPC.dmg */,
+				63AE030B0E5A7D93004DE2DF /* updates.xml */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -452,6 +470,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				63AE02E70E5A7ADA004DE2DF /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -564,8 +583,8 @@
 				632ADDDD0E39224D003C600B /* config3.xml in Resources */,
 				63961E180E4410BF004BAEDF /* NSArrayController.py in Resources */,
 				63961FB50E47A81A004BAEDF /* NSTreeController.py in Resources */,
-				63AE00C20E5A3454004DE2DF /* GIMP-2.4.6-20080601-Leopard-PowerPC.dmg in Resources */,
 				63AE02820E5A6820004DE2DF /* maclibre.icns in Resources */,
+				63AE030C0E5A7D93004DE2DF /* updates.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +627,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -627,6 +650,10 @@
 			buildSettings = {
 				COPYING_PRESERVES_HFS_DATA = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MacLibre3_Prefix.pch;
