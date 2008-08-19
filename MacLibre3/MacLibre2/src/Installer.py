@@ -287,7 +287,7 @@ class Installer:
                 return True
             else:
                 print '\t launching download '
-                #if os.path.exists(packageDir) : shutil.rmtree(packageDir)
+                if os.path.exists(packageDir) : shutil.rmtree(packageDir)
                 url = file.urls[self.idUrl]
                 if not os.path.exists(packageDir):
                     os.makedirs( packageDir )
@@ -295,14 +295,19 @@ class Installer:
                 distribVersion = self.progressionPage.maclibreWizard.maclibre.configuration.getDefaultConfig().version
             
                 labelText = 'Downloading '
-                
-                if distribVersion == 'offline' or (distribVersion == 'mixed' and package.diskImageLocation == 'offline'):
-                    url = getResourcesPath() + '/AppsDiskImages/' + file.name
+
+                #if distribVersion == 'offline' or (distribVersion == 'mixed' and package.diskImageLocation == 'offline'):
+                if package.diskImageLocation == 'offline':
+                    url = 'file:/' + getResourcesPath() + '/' + file.name
+                    print url
                     labelText = 'Copying '
-                
+
                 #debug
                 print
                 print labelText + package.name
+                
+                if package.diskImageLocation == 'offline':
+                    return True
                 
                 downloader = Downloader.alloc().init()
                 downloader.setup( url , destination , file.size, self.progressionPage, md5=file.md5, maclibre3=self.maclibre3 )
@@ -627,6 +632,8 @@ class Installer:
         """ 
         filepath = os.path.join( self.progressionPage.maclibreWizard.maclibre.maclibreDir,'packages',
                      self.currentPkg.name, self.currentPkg.installations[0].file.name )
+        if self.currentPkg.diskImageLocation=='offline':
+            filepath=getResourcesPath()+'/'+self.currentPkg.installations[0].file.name
         if self.currentType == 'dmg' :
             container = DmgContainer(filepath)
         elif self.currentType == 'zip':
@@ -641,6 +648,8 @@ class Installer:
         This method return true if all needed pieces to install the given package
         (its position in self.orderToInstall) have been correctly downloaded, otherwise self.reason is set and it returns false.
         """
+        if self.currentPkg.diskImageLocation=='offline':
+            return True
         if not self.correctlyDownloaded[indexPkg] :
             self.reason = 'DOWNLOAD_FAILED'
             return False

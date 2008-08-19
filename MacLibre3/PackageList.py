@@ -57,15 +57,15 @@ class PackageList (NSObject):
         #self.pkgs=NSSet.setWithArray_([[a,b],b,c])
         #print self.pkgs
         #self.selectedx=1
-        self.actions=["","INSTALL"]
+        #self.actions=["","INSTALL"]
         
         pkgs = self.dist.categories[0].packages
         for pkg in pkgs:
             pkg.fileSize=str(pkg.installations[0].file.size/100000/10.0)+'MB'
             pkg.sizeOnDisk=str(pkg.installations[0].sizeOnDisk/100000/10.0)+'MB'
             pkg.logo=NSImage.imageNamed_(pkg.logoImageFile)
-            pkg.todo="No action"
-            pkg.actions=["No action",prefs.getTodo(pkg.name,'')]
+            pkg.todo=" "
+            pkg.actions=[" ",prefs.getTodo(pkg.name,'')]
         self.packages=pkgs
         return self
 
@@ -137,7 +137,7 @@ class PackageList (NSObject):
     
     def numberOfRowsInTableView_(self, tableview):
         self.targets=[]
-        [self.targets.extend([package for package in category.packages if package.todo]) for category in self.dist.categories]
+        [self.targets.extend([package for package in category.packages if package.todo!=" "]) for category in self.dist.categories]
         return len(self.targets)
         
     def tableView_objectValueForTableColumn_row_(self, tableview, column, row):

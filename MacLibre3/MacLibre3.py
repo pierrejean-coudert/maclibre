@@ -71,21 +71,21 @@ class MacLibre3(NSObject):
                 #self.nextButton.setEnabled_(self.auth.updateStatus_(self))
             self.tabs.selectNextTabViewItem_(1)
             if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 3:
-                self.installation.setSelected(self.packList.dist, self.packList.inst)
-                self.installer=Installer(self.installation, self)
-                self.installation.setup(self.installation, self.maclibre, self.installer)
-                self.installer.install(getattr(self.tabs,'selectNextTabViewItem_'))
+                if self.installation.setSelected(self.packList.dist, self.packList.inst):
+                    self.nextButton.setEnabled_(False)
+                    self.previousButton.setEnabled_(False)
+                    self.installer=Installer(self.installation, self)
+                    self.installation.setup(self.installation, self.maclibre, self.installer)
+                    self.installer.install(getattr(self.tabs,'selectNextTabViewItem_'))
+                else:
+                    self.tabs.selectPreviousTabViewItem_(1)
+                    self.tabs.selectPreviousTabViewItem_(1)
 
     @objc.IBAction
     def previousPage_(self, sender):
-        #self.webView.setMainFrameURL_("https://winlibre.svn.sourceforge.net/svnroot/winlibre/MacLibre2/xml/en.xml")
-        #self.tabs.selectPreviousTabViewItem_(1)
-        #if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 0:
-        #    self.previousButton.setEnabled_(False)
-        if (self.downloader):
-            print self.downloader.dl.resumeData()
-            self.downloader.dl.cancel()
-            print self.downloader.dl.resumeData()
+        self.tabs.selectPreviousTabViewItem_(1)
+        if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 0:
+            self.previousButton.setEnabled_(False)
         
     @objc.IBAction
     def quit_(self, sender):
@@ -142,6 +142,8 @@ class MacLibre3(NSObject):
                     [Installation(package.valueForKey_('sizeOnDisk'),package.valueForKey_('OSMin'),
                     file=File(package.valueForKey_('fileName'),package.valueForKey_('sizeOfDownload'),md5=package.valueForKey_('MD5Sum'),urls=[package.valueForKey_('url')]))]
                     ,package.valueForKey_('logo')))
+                    #dist.categories[-1].packages[-1].diskImageLocation='offline'
+                    
         for category in dist.categories:
             print category
             print str(category.packages)

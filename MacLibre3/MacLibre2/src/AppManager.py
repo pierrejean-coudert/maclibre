@@ -59,11 +59,11 @@ class AppManager:
     def run(self):
         """ This method launch the installation in a separate thread"""
         if os.path.exists(self.destination):
-            if self.todo == 'INSTALL' :
+            if self.todo == 'Install' :
                 if self.progressionPage is not None:
                     self.appResult = False
                     return
-            if (self.todo == 'UPDATE' or self.todo == 'REINSTALL') :
+            if (self.todo == 'Update' or self.todo == 'Reinstall') :
                 shutil.rmtree(self.destination)
         
         if self.progressionPage is not None:
