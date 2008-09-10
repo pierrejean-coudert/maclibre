@@ -210,7 +210,7 @@
         <attribute name="sizeondisk" type="int32">78281634</attribute>
         <attribute name="sizeofdownload" type="int32">25044477</attribute>
         <attribute name="name" type="string">VLC</attribute>
-        <attribute name="logo" type="string">vlc.png</attribute>
+        <attribute name="logo" type="string">VLC.png</attribute>
         <attribute name="homepage" type="string">http://www.videolan.org/vlc/</attribute>
         <attribute name="filename" type="string">vlc-0.8.6i.dmg</attribute>
         <attribute name="desc" type="string">VLC media player is a highly portable multimedia player for various audio and video formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as well as DVDs, VCDs, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network</attribute>
@@ -237,7 +237,7 @@
         <attribute name="url" type="string">http://neooffice.gnubox.eu/NeoOffice-2.2.4-PowerPC.dmg</attribute>
         <attribute name="sizeondisk" type="int32">144390745</attribute>
         <attribute name="sizeofdownload" type="int32">143733992</attribute>
-        <attribute name="name" type="string">NooOffice</attribute>
+        <attribute name="name" type="string">NeoOffice</attribute>
         <attribute name="logo" type="string">NeoOffice.png</attribute>
         <attribute name="homepage" type="string">http://www.neooffice.org/neojava/en/index.php</attribute>
         <attribute name="filename" type="string">NeoOffice-2.2.4-PowerPC.dmg</attribute>
@@ -252,7 +252,7 @@
         <attribute name="sizeondisk" type="int32">24838923</attribute>
         <attribute name="sizeofdownload" type="int32">23289693</attribute>
         <attribute name="name" type="string">ClamXav</attribute>
-        <attribute name="logo" type="string">clamXav.png</attribute>
+        <attribute name="logo" type="string">ClamXav.png</attribute>
         <attribute name="homepage" type="string">http://www.clamxav.com/</attribute>
         <attribute name="filename" type="string">ClamXav_1.1.1_Universal_e933.dmg</attribute>
         <attribute name="desc" type="string">ClamXav is a free virus checker for Mac OS X. It uses the tried, tested and very popular ClamAV open source antivirus engine as a back end.</attribute>

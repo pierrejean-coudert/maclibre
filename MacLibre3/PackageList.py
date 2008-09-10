@@ -58,8 +58,9 @@ class PackageList (NSObject):
         #print self.pkgs
         #self.selectedx=1
         #self.actions=["","INSTALL"]
-        
-        pkgs = self.dist.categories[0].packages
+        pkgs=[]
+        for category in self.dist.categories:
+            pkgs.extend(category.packages)
         for pkg in pkgs:
             pkg.fileSize=str(pkg.installations[0].file.size/100000/10.0)+'MB'
             pkg.sizeOnDisk=str(pkg.installations[0].sizeOnDisk/100000/10.0)+'MB'
