@@ -137,8 +137,7 @@ class MacLibre3(NSObject):
         for category in categories:
             dist.categories.append(Category(category.valueForKey_('name'),[]))
             for package in packages:
-                print package.valueForKey_('category').valueForKey_('name')
-                print category.valueForKey_('name')
+                print package.valueForKey_('name')
                 if package.valueForKey_('category').valueForKey_('name') == category.valueForKey_('name'):
                     print 'adding'
                     dist.categories[-1].packages.append(Package(package.valueForKey_('name'),
@@ -146,11 +145,9 @@ class MacLibre3(NSObject):
                     [Installation(package.valueForKey_('sizeOnDisk'),package.valueForKey_('OSMin'),
                     file=File(package.valueForKey_('fileName'),package.valueForKey_('sizeOfDownload'),md5=package.valueForKey_('MD5Sum'),urls=[package.valueForKey_('url')]))]
                     ,package.valueForKey_('logo')))
-                    #dist.categories[-1].packages[-1].diskImageLocation='offline'
+                    if package.valueForKey_('url')=="":
+                        dist.categories[-1].packages[-1].diskImageLocation='offline'
                     
-        for category in dist.categories:
-            print category
-            print str(category.packages)
         
         self.packList.load_(dist, None)
         self.tabs.selectNextTabViewItem_(1)
