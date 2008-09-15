@@ -195,8 +195,8 @@
         <attribute name="url" type="string">http://daigertech.com/handbrake/HandBrake-0.9.2-MacOSX.5_GUI_UB.dmg</attribute>
         <attribute name="sizeondisk" type="int32">16144146</attribute>
         <attribute name="sizeofdownload" type="int32">5278807</attribute>
-        <attribute name="name" type="string">Handbrake</attribute>
-        <attribute name="logo" type="string">Handbrake.png</attribute>
+        <attribute name="name" type="string">HandBrake</attribute>
+        <attribute name="logo" type="string">HandBrake.png</attribute>
         <attribute name="homepage" type="string">http://handbrake.fr/</attribute>
         <attribute name="filename" type="string">HandBrake-0.9.2-MacOSX.5_GUI_UB.dmg</attribute>
         <attribute name="desc" type="string">HandBrake 0.9.2 incorporates many major and exciting changes—including full support for the AppleTV Take 2 and the latest iPhone/iPod Touch firmware.</attribute>
