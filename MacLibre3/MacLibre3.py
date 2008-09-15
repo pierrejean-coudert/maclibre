@@ -40,7 +40,8 @@ class MacLibre3(NSObject):
     def nextPage_(self, sender):
         if self.tabs.indexOfTabViewItem_(self.tabs.selectedTabViewItem()) == 0:
             #self.maclibre.chooseWebXml()
-            defaultUrl = self.maclibre.configuration.getDefaultConfig().url
+            #defaultUrl = self.maclibre.configuration.getDefaultConfig().url
+            defaultURL=self.configURL
             #xmlMacLibre = os.path.join( self.maclibre.maclibreDir , os.path.split(defaultUrl)[1] )
             #down = Downloader.alloc().init()
             #down.setup(defaultUrl,xmlMacLibre)

@@ -292,7 +292,7 @@ class Installer:
                 if not os.path.exists(packageDir):
                     os.makedirs( packageDir )
                 
-                distribVersion = self.progressionPage.maclibreWizard.maclibre.configuration.getDefaultConfig().version
+                #distribVersion = self.progressionPage.maclibreWizard.maclibre.configuration.getDefaultConfig().version
             
                 labelText = 'Downloading '
 

@@ -34,7 +34,9 @@ class MacLibre:
     def __init__(self):
         self.version = '0.2'
         self.userHome = os.path.expanduser('~')
-        self.maclibreDir = os.path.join(self.userHome,'.maclibre')
+        #self.maclibreDir = os.path.join(self.userHome,'.maclibre')
+        self.maclibreDir = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, True)[0]
+        self.maclibreDir += "/Maclibre3/"
         self.maclibrePackagesDir = os.path.join(self.maclibreDir,'packages')
         self.xmlMaclibrePath = ''
         self.xmlUserPath = os.path.join(self.maclibreDir,'installed.xml')
@@ -45,7 +47,7 @@ class MacLibre:
         if resPath == '../bin':
             resPath = '../Resources'
         self.configuration = Config.Configuration(resPath+'/config.xml')
-        self.configuration.getDefaultConfig().printInfo()
+        #self.configuration.getDefaultConfig().printInfo()
 	
         ## GUI
         mlw = GUI_MaclibreWizard(0)
