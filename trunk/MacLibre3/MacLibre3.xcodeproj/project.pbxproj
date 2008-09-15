@@ -21,6 +21,9 @@
 		63AE02F50E5A7B08004DE2DF /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63AE02B30E5A7A95004DE2DF /* Sparkle.framework */; };
 		63AE030C0E5A7D93004DE2DF /* updates.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63AE030B0E5A7D93004DE2DF /* updates.xml */; };
 		63C8B1AA0DFDA0B00048F045 /* Downloader3.py in Resources */ = {isa = PBXBuildFile; fileRef = 63C8B1A90DFDA0B00048F045 /* Downloader3.py */; };
+		63DB0DEE0E7EED7B00C27669 /* DEVELOPER.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63DB0DEB0E7EED7B00C27669 /* DEVELOPER.txt */; };
+		63DB0DEF0E7EED7B00C27669 /* MacLibre3.dmg in Resources */ = {isa = PBXBuildFile; fileRef = 63DB0DEC0E7EED7B00C27669 /* MacLibre3.dmg */; };
+		63DB0DF00E7EED7B00C27669 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63DB0DED0E7EED7B00C27669 /* README.txt */; };
 		63DD43890DEBBB520074CC48 /* AbiWord.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43400DEBBB510074CC48 /* AbiWord.png */; };
 		63DD438A0DEBBB520074CC48 /* Adium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43410DEBBB510074CC48 /* Adium.png */; };
 		63DD438B0DEBBB520074CC48 /* Audacity.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DD43420DEBBB510074CC48 /* Audacity.png */; };
@@ -134,6 +137,9 @@
 		63AE02B30E5A7A95004DE2DF /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		63AE030B0E5A7D93004DE2DF /* updates.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = updates.xml; sourceTree = "<group>"; };
 		63C8B1A90DFDA0B00048F045 /* Downloader3.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Downloader3.py; sourceTree = SOURCE_ROOT; };
+		63DB0DEB0E7EED7B00C27669 /* DEVELOPER.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DEVELOPER.txt; sourceTree = "<group>"; };
+		63DB0DEC0E7EED7B00C27669 /* MacLibre3.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MacLibre3.dmg; sourceTree = "<group>"; };
+		63DB0DED0E7EED7B00C27669 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		63DD43400DEBBB510074CC48 /* AbiWord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AbiWord.png; sourceTree = "<group>"; };
 		63DD43410DEBBB510074CC48 /* Adium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adium.png; sourceTree = "<group>"; };
 		63DD43420DEBBB510074CC48 /* Audacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Audacity.png; sourceTree = "<group>"; };
@@ -272,6 +278,9 @@
 		29B97314FDCFA39411CA2CEA /* MacLibre3 */ = {
 			isa = PBXGroup;
 			children = (
+				63DB0DEB0E7EED7B00C27669 /* DEVELOPER.txt */,
+				63DB0DEC0E7EED7B00C27669 /* MacLibre3.dmg */,
+				63DB0DED0E7EED7B00C27669 /* README.txt */,
 				63AE030B0E5A7D93004DE2DF /* updates.xml */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -585,6 +594,9 @@
 				63961FB50E47A81A004BAEDF /* NSTreeController.py in Resources */,
 				63AE02820E5A6820004DE2DF /* maclibre.icns in Resources */,
 				63AE030C0E5A7D93004DE2DF /* updates.xml in Resources */,
+				63DB0DEE0E7EED7B00C27669 /* DEVELOPER.txt in Resources */,
+				63DB0DEF0E7EED7B00C27669 /* MacLibre3.dmg in Resources */,
+				63DB0DF00E7EED7B00C27669 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,35 @@
+Maclibre 3
+Developer Documentation
+
+COMPILING
+
+Maclibre3 was compiled using XCode 3.1.  Earlier versions may not work.  It is written in Python using the Cocoa APIs.
+
+You may need to add the MacLibreAdminDocument.xcdatamodel file from the MacLibreAdmin project to your file list.
+
+MAKING CUSTOM PACKAGE LISTS
+
+To make a custom package list, you will need to use the MacLibreAdmin program.  Make a new document using it and add information about your packages.  You can use an existing config3.xml to see the information in each field.  You must save your package list in XML format.
+
+OFFLINE PACKAGES
+To include a package with the Maclibre3 app bundle, leave the URL field blank in MacLibreAdmin.  After compiling, copy the package DMG into the Maclibre3.app/Contents/Resources folder.
+
+CHANGING THE PACKAGE LIST LOCATION
+
+Maclibre3 downloads a package list each time it is run.  To change the location it downloads it from, look for the following line in Maclibre3.py
+
+    #change the following line to use a different config file
+
+Change the line below it, replacing the current package list URL with a new one.
+
+SPARKLE INTEGRATION
+
+Sparkle is used to manage program updates.  Visit http://sparkle.andymatuschak.org/ for more information about this.
+
+LOCALIZATION
+
+Localize as you would any other Cocoa app.
+
+KNOWN ISSUES
+
+The "Pause Download" button is currently not localizable without code changes.
